@@ -1,0 +1,5 @@
+Aby rozwiązać zadanie należy założyć wszystkie możliwości stacji będącymi węzłami przesiadkowimi (jest ich n^2/2). 
+Dla każdej kombinacji:
+Obserwacja: Jeśli do pierwszego węzła będziemy chcieli połączyć jakąś stację, to opłaca się tam też połączyć wszystkie stacje w odległości mniejszej.
+Wniosek: Dla każdej stacji liczymy odległość do dwóch węzłów. Następnie sortujemy te stacje po odległości od pierwszego węzła. Teraz wiemy, że będziemy chcieli połączyć jakiś prefix stacji do pierwszego węzła, a odpowiadający sufix do drugiego.
+Za pomocą maxów prefixowych i sufixowych możemy określić wynik dla każdego prefixu. Należy pamiętać, że trasa może prowadzić pomiędzy dwoma stacjami połączyonymi z tym samym węzełem.  

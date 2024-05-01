@@ -1,0 +1,5 @@
+Zadanie wymaga zastosowania programowania dynamicznego na drzewie.
+W opisanym rozwiązaniu ukorzeniam drzewo w wierzchołku 1.
+Rozwiązanie polega na utrzymywaniu dp-ka dla każdego wierzchołka, który informuje jaki będzie wynik(ile najwięcej mogę zamknąć bramek) zakładając, że wykonam optymalnego wyboru ścieżki w poddrzewie wierzchołka. Będąc w wierzchołku postorder rozważam sytuację:
+1) odpowiedzią jest ścieżka kończąca się w wierzchołku, która idzie w głąb jakiegoś syna
+2) odpowiedzią jest ścieżka, która przechodzi przez dany wierzchołek, a jej końce znajdują się w 2 poddrzewach synów

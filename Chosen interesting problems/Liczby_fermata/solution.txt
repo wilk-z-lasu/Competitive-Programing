@@ -1,0 +1,6 @@
+W tym zadaniu należy dodać liczby kolumnami, a następnie na sumie wykonać jeden z dwóch algorytmów:
+1) standardowy algorytm zmieniający zapis tego systemu liczbowego w O(n)
+2) wykonać po kolei:
+ - rozwiązać (idąc od lewej do prawej strony) zadanie poza przypadkiem: ...102.., gdyż wtedy po rozłożeniu 0020=>1001 trzeba by było się cofnąć dwa pola w tył, gdzie znowu stworzyła by sie dwójka, i byćmoże trzebaby było się cofnąć znowu
+ - rozwiązać wcześniej opisany przypadek (idąc od prawej do lewej strony), można to zrobić ponieważ, po pierwszym kroku, nigdy nie będzie podanej sytuacji: ..21.., a zatem rozłożenie 2 nie stworzy już 2 na sufixie (ale może stowrzyć spójny ciąg jedynek)
+ - rozłożyć spójne ciągi jedynek
