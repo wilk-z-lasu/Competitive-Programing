@@ -1,3 +1,4 @@
+węzeł- wierzchołek wybrany na "węzeł przesiadkowy", połączony z wieloma wierzchołkami oraz drugim węzłem
 Aby rozwiązać zadanie należy założyć wszystkie możliwości stacji będącymi węzłami przesiadkowimi (jest ich n^2/2). 
 Dla każdej kombinacji:
 Obserwacja: Jeśli do pierwszego węzła będziemy chcieli połączyć jakąś stację, to opłaca się tam też połączyć wszystkie stacje w odległości mniejszej.

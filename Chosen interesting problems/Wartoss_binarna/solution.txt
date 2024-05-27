@@ -1,0 +1,5 @@
+Rozwiązanie cześci naturalnej jest proste, wiec w tym omowieniu skupie sie na rozwiazaniu czesci ulamkowej.
+Zaczniemy od przedstawienia czesci ulamkowej jako a/b gdzie a=liczba po kropce b=10^ilosc cyfer po kropce, co jest zwyklym przedstawieniem ulamka naturalnego.
+Nastepnie bedziemy mnozyc liczbe a razy 2 oraz dzielic przez b, a wynik zapisywac na danym miejscu.
+Mozna zauwazyc, ze te operacje tak naprawde jest analogiczna do przeliczania czesci naturalnej. 
+Nie będziemy zmieniać liczby b, aby móc w łatwy sposób dowiedzieć się kiedy nastapi petla. Petla nastepuje w momencie kiedy ulamek jest rowny takiemu, ktory juz wczesniej rozpatrywalismy.

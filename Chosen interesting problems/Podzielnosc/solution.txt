@@ -1,0 +1,12 @@
+To create the largest number in any numeral system we will just put the greatest numbers in front of the number. ex. we would prefer 4421 to 2414 because the first number is greater.
+Now you only have to take care of divisibility of the whole number. To do that it is important to understand:
+(B^k*x)%(B-1) => (B^k)%(B-1) * x%(B-1) => B1%(B-1) * B2%(B-1) * ... * Bk%(B-1) * x%(B-1) => 1 * x%(B-1) => x%(B-1)
+It implies that you only have need to take care of the sum of numbers' digits to be divisible by B-1.
+To do this, you must calculate ∑(ai * i) for each i from 1 to (B-1), because it is the sum of numbers' digits you want to put in final number.
+Taking this sum modulo (B-1) will indicate which digit needs to be eliminated in the final number (note that if it's zero, no digit needs to be removed).
+It always work because there is guarantee that each ai>=1, which means you can always find number to erase. It is always optimal to remove only one number, because number with less digits will be always be smaller then number with more digits.
+Now for each digit you have information on how many times you want to use it in final number. 
+You must put largest digits in front as proved at the beginning. 
+To store final number, you must keep prefix sums for number of digits already used.
+This way for each query you can easily bin-search which digit is being used in i'th place.
+This solution is O(n*log(n)) because Time complexity is dominated by answering queries.

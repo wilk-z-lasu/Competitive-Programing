@@ -1,0 +1,14 @@
+Rozwiązaniem zadania jest przejście BFS-em po dp-ku.
+
+1) Rozwiązanie (działające tylko dla dużego limitu czasowego)
+Zauważamy, że jedna z dwóch menzurek będzie miała w sobie ilość wody do podziałki. Dzięki temu możemy trzymać DP[Xmax][n], który informuje nas jaką ceną możemy przejść do stanu, w którym w jednej menzurce jest dana ilość wody, a w drugim jest wody do i'tej przedziałki. Będąc w danym stanie symulujemy wszystkie możliwe sytuacje, które można zrobić w jednym ruchu opisane w tresci (dolanie/wylanie z którejś menzurki oraz przelanie z 1 do 2 lub z 2 do 1). Sytuacje te można uprościć do 3 sytuacji:
+-zmieniam ilość wody w 1 menzurce do i'tej przedziałki
+-zmieniam ilość wody w 2 menzurce do i'tej przedziałki
+-do 1 menzurki wlewam(lub wylewam w przypadku ujemnymj) ilość wody w 2 menzurce minus ilość wody do i'tej przedziałki
+Rozpatrujemy to standardowym BFS-em, a na kolejce trzymamy dwie liczby: 1-ile jest wody w 1 menzurce 2- do której przedziałki sięga woda w 2 menzurce.
+Stanem początkowym jest start z oboma menzurkami pustymi.
+2) Rozwiązanie (najszybsze)
+Trzymamy tablicę vis, która oznaczy czy jesteśmy już w stanie stworzyć jakąś wysokość wody. 
+Zauważmym, że na początku z kosztem jeden możemy wlać do 1 menzurki ilość wody do podziałki z kosztem jeden, jednak poźniej każde dolanie/odlanie wody będzie wymagało od nas 2 ruchów: wlania do 2 menzurki i przelania do 1. 
+Prowadzi to do rozwiązania, gdzie będziemy trzymać ilość wody w 1 menzurce, a drugą będziemy traktować jako menzurkę pomocniczą, za jej pomocą jesteśmy wstanie dolać róznicę dwóch progów do pierwszej menzurki z kosztem 2. Okazuje się, że ruch przelania wody z 1 menzurki do 2 można zareprezentować jako odlanie jakiejś ilości wody będącej różnicą miedzy dwoma podziałkami wody.
+Ostatecznym rozwiązanie jest więc rozpoczęcie ze stanów początkowych: można osiągnąć każdą przedziałkę z kosztem jeden oraz 0 z kosztem zero. Następnie w BFS-ie będziemy próbowali do tej menzurki dodać i odjąć rożnicę miedzy dwoma podziałkami wody. W momencie dojścia do pożądanego poziomu wypisujemy aktualny koszt, który trzemamy na kolejce BFS-a. Jeżeli nie dojdziemy do pożądanego wyniku to wypisujemy "NIE". Czas program jest ogranicznocy poprzez fakt, że do każdej wysokości wejdziemy tylko raz, a czas na próbę przejścia  do innych stanów wynosi n^2/2, więc rozwiązanie działa Xmax*n^2/2, pomijając stałe, ale zostawiając dzielenie przez 2 na końcu, ponieważ to one jest odpowidzialne za szybsze działanie tego rozwiązanie niż rozwiązanie 1).
