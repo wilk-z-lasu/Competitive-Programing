@@ -1,0 +1,170 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define f first
+#define s second
+ 
+constexpr int maxn=2e5+7;
+ 
+int n;
+vector<int>vec[maxn];
+ 
+//Segment tree
+constexpr int M=(1<<18);
+int tree[2*M];
+inline void set_tree(int poz, int val)
+{
+    poz=poz+M-1;
+    tree[poz]=val;
+    poz/=2;
+    while(poz)
+    {
+        tree[poz]=max(tree[2*poz], tree[2*poz+1]);
+        poz/=2;
+    }
+}
+inline int get_max(int a, int b, int v=1, int l=1, int r=M)
+{
+    if(r<a || b<l) return 0;
+    if(a<=l && r<=b) return tree[v];
+    int mid=(l+r)/2;
+    return max(get_max(a,b,2*v,l,mid), get_max(a,b,2*v+1,mid+1,r));
+}
+ 
+//LCA
+constexpr int LOG=19;
+int up[maxn][LOG];
+int depth[maxn];
+inline void get_parents(int v=1, int parent=1)
+{
+    depth[v]=depth[parent]+1;
+    up[v][0]=parent;
+    for(auto &u: vec[v])
+    {
+        if(u==parent) continue;
+        get_parents(u, v);
+    }
+}
+inline void calculate_bin_lifting()
+{
+    for(int jump=1;jump<LOG;jump++)
+        for(int i=1;i<=n;i++)
+            up[i][jump]=up[up[i][jump-1]][jump-1];
+}
+ 
+inline void LCA()
+{
+    get_parents();
+    calculate_bin_lifting();
+}
+ 
+inline int get_lca(int a, int b)
+{
+    if(depth[a] < depth[b]) swap(a,b);
+ 
+    int k=depth[a]-depth[b];
+ 
+    for(int i=LOG-1;i>=0;i--)
+        if(k & (1<<i))
+            a=up[a][i];
+ 
+    if(a==b) return a;
+    for(int i=LOG-1;i>=0;i--)
+        if(up[a][i] != up[b][i])
+        {
+            a=up[a][i];
+            b=up[b][i];
+        }
+    return up[a][0];
+}
+ 
+//HLD
+int siz[maxn];
+int head[maxn];
+int numeruj=0;
+int number[maxn];
+int numeruj_zone=1;
+int number_zone[maxn];
+inline void get_siz(int v=1, int parent=0)
+{
+    siz[v]=1;
+    for(auto &u: vec[v])
+    {
+        if(u==parent) continue;
+        get_siz(u, v);
+        siz[v]+=siz[u];
+    }
+}
+inline void dfs(int v=1, int parent=0)
+{
+    number[v]=++numeruj;
+    number_zone[v]=numeruj_zone;
+    if(number_zone[v]!=number_zone[parent]) head[number_zone[v]]=v;
+ 
+    if(vec[v].size()==1 && vec[v][0]==parent) return;
+ 
+    pair<int,int>maxi={0,0};
+    for(auto &u: vec[v])
+    {
+        if(u==parent) continue;
+        maxi=max(maxi,{siz[u],u});
+    }
+ 
+    dfs(maxi.s,v);
+ 
+    for(auto &u: vec[v])
+    {
+        if(u==parent || u==maxi.s) continue;
+        numeruj_zone++;
+        dfs(u, v);
+    }
+}
+inline void HLD()
+{
+    get_siz();
+    dfs();
+}
+ 
+inline int upper_path(int x, int upper)
+{
+    int odp=0;
+    while(number_zone[x]!=number_zone[upper])
+    {
+        odp=max(odp, get_max(number[head[number_zone[x]]], number[x]));
+        x=head[number_zone[x]];
+        x=up[x][0];
+    }
+    odp=max(odp, get_max(number[upper], number[x]));
+    return odp;
+}
+inline int max_path(int a, int b)
+{
+    int lca=get_lca(a,b);
+    int l = upper_path(a, lca);
+    int r = upper_path(b, lca);
+    return max(l,r);
+}
+
+inline void update_node(int node, int value)
+{
+    set_tree(number[node], value);
+}
+ 
+int32_t main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+ 
+    cin>>n;
+    for(int i=1;i<=n-1;i++)
+    {
+        int a,b;
+        cin>>a>>b;
+        vec[a].push_back(b);
+        vec[b].push_back(a);
+    }
+ 
+    HLD();
+    LCA();
+ 
+    return 0;
+}
