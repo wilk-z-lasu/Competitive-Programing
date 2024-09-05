@@ -78,7 +78,6 @@ void dfs(point v, int czas=0)
         if(!vis[v.y+1][v.x])
             dfs({v.y+1, v.x}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y+1, v.x}));
-        // cout<<create({v.y, v.x})<<" -> "<<create({v.y+1, v.x})<<endl;
         vec_odw[create({v.y+1, v.x})].push_back(create({v.y, v.x}));
  
     }
@@ -87,7 +86,6 @@ void dfs(point v, int czas=0)
         if(!vis[v.y-1][v.x])
             dfs({v.y-1, v.x}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y-1, v.x}));
-        // cout<<create({v.y, v.x})<<" -> "<<create({v.y-1, v.x})<<endl;
         vec_odw[create({v.y-1, v.x})].push_back(create({v.y, v.x}));
  
     }
@@ -96,7 +94,6 @@ void dfs(point v, int czas=0)
         if(!vis[v.y][v.x+1])
             dfs({v.y, v.x+1}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y, v.x+1}));
-        // cout<<create({v.y, v.x})<<" -> "<<create({v.y, v.x+1})<<endl;
         vec_odw[create({v.y, v.x+1})].push_back(create({v.y, v.x}));
  
     }
@@ -105,7 +102,6 @@ void dfs(point v, int czas=0)
         if(!vis[v.y][v.x-1])
             dfs({v.y, v.x-1}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y, v.x-1}));
-        // cout<<create({v.y, v.x})<<" -> "<<create({v.y, v.x-1})<<endl;
         vec_odw[create({v.y, v.x-1})].push_back(create({v.y, v.x}));
  
     }
@@ -195,15 +191,6 @@ int32_t main()
             }
         }
         odl_from_B();
- 
-        // for(int i=1;i<=n;i++)
-        // {
-        //     for(int j=1;j<=n;j++)
-        //     {
-        //         cout<<odl_B[i][j]<<' ';
-        //     }
-        //     cout<<endl;
-        // }
  
         min_path = odl_B[Y_a][X_a];
         if(min_path%2==1)
