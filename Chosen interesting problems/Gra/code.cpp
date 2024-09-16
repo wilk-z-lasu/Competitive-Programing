@@ -2,9 +2,9 @@
 using namespace std;
 #define f first
 #define s second
-
+ 
 constexpr int maxn=300+7;
-constexpr int inf=1e9+7;
+constexpr int inf=3e4+7;
 
 int t;
  
@@ -30,7 +30,7 @@ int create(point p)
     return (p.y-1)*n+p.x;
 }
  
-int vis[maxn][maxn];
+bool vis[maxn][maxn];
 void prepere_vis()
 {
     for(int i=1;i<=n;i++)
@@ -78,6 +78,7 @@ void dfs(point v, int czas=0)
         if(!vis[v.y+1][v.x])
             dfs({v.y+1, v.x}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y+1, v.x}));
+        // cout<<create({v.y, v.x})<<" -> "<<create({v.y+1, v.x})<<endl;
         vec_odw[create({v.y+1, v.x})].push_back(create({v.y, v.x}));
  
     }
@@ -86,6 +87,7 @@ void dfs(point v, int czas=0)
         if(!vis[v.y-1][v.x])
             dfs({v.y-1, v.x}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y-1, v.x}));
+        // cout<<create({v.y, v.x})<<" -> "<<create({v.y-1, v.x})<<endl;
         vec_odw[create({v.y-1, v.x})].push_back(create({v.y, v.x}));
  
     }
@@ -94,6 +96,7 @@ void dfs(point v, int czas=0)
         if(!vis[v.y][v.x+1])
             dfs({v.y, v.x+1}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y, v.x+1}));
+        // cout<<create({v.y, v.x})<<" -> "<<create({v.y, v.x+1})<<endl;
         vec_odw[create({v.y, v.x+1})].push_back(create({v.y, v.x}));
  
     }
@@ -102,13 +105,12 @@ void dfs(point v, int czas=0)
         if(!vis[v.y][v.x-1])
             dfs({v.y, v.x-1}, czas+1);
         vec[create({v.y, v.x})].push_back(create({v.y, v.x-1}));
+        // cout<<create({v.y, v.x})<<" -> "<<create({v.y, v.x-1})<<endl;
         vec_odw[create({v.y, v.x-1})].push_back(create({v.y, v.x}));
  
     }
 }
  
-int added[maxn*maxn];
-
 int lewo[maxn*maxn];
 int prawo[maxn*maxn];
 void wypisz()
