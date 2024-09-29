@@ -35,7 +35,7 @@ int32_t main()
         if(s[pre+1]==s[i])
             pre++;
         //zapisanie prefixo-sufixa 1-i w tabeli P
-        P[i]=pre;   
+        P[i]=pre;
     }
 
     for(int i=1;i<=k;i++) 
