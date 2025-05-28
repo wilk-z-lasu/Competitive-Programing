@@ -1,0 +1,2 @@
+online judo: https://judge.yosupo.jp/problem/persistent_unionfind
+link to github of problem creators: https://github.com/yosupo06/library-checker-problems/tree/master/data_structure/persistent_unionfind
