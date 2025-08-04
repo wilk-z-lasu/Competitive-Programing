@@ -1,0 +1,1 @@
+all problems avilable here: https://szkopul.edu.pl/task_archive/oi/
