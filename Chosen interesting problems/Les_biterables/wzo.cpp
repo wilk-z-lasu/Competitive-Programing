@@ -15,14 +15,13 @@ int n,d;
 int s,p;
 
 vector<int>last;//last vector with 0 at the begining and d at the end
-
 vector<int>akt;//current vector with 0 at the begining and d at the end
 
 constexpr int M = (1<<20);
 int tree[2*M];
 int lazy[2*M];
 
-void Push(int v)
+inline void Push(int v)
 {
     if(lazy[v]==0) return;
     tree[v*2] += lazy[v];
@@ -32,35 +31,44 @@ void Push(int v)
     lazy[v] = 0;
 }
 
-void add_tree(int a, int b, int val, int v=1, int l = 0, int r = M-1)
+inline void add_tree(int a, int b, int val, int v=1, int l = 0, int r = M-1)//O(logn)
 {
-    // if(r<a || b<l) return;
-    // if(a<=l && r<=b)
-    // {
-    //     tree[v] += val;
-    //     lazy[v] += val;
-    //     return;
-    // }
-    for(int i = a; i <= b; ++i)
+    if(r<a || b<l) return;
+    if(a<=l && r<=b)
     {
-        tree[i] += val;
+        tree[v] += val;
+        lazy[v] += val;
+        return;
     }
-    return;
+    int mid = (l+r)/2;
+    Push(v);
+    add_tree(a,b,val, 2*v, l, mid);
+    add_tree(a,b,val, 2*v+1, mid+1, r);
+    tree[v] = min(tree[2*v], tree[2*v+1]);
 }
-int get_tree(int a, int b, int v=1, int l = 0, int r = M-1)
+inline int get_tree(int a, int b, int v=1, int l = 0, int r = M-1)//O(logn)
 {
-    int odp = 1e18;
+    if(r<a || b<l) return 1e18;
+    if(a<=l && r<=b)
+        return tree[v];
+
+    int mid = (l+r)/2;
+    Push(v);
+    int left = get_tree(a,b, 2*v, l, mid);
+    int right = get_tree(a,b, 2*v+1, mid+1, r);
+    return min(left,right);
+}
+void clear_tree(int a, int b) //O((b-a) * logn)
+{
     for(int i = a; i <= b; ++i)
     {
-        odp = min(odp, tree[i]);
-    }
-    return odp;
-}
-void clear_tree(int a, int b)
-{
-    for(int i = a; i <= b; ++i)
-    {
-        tree[i] = 0;
+        int poz = i + M;
+        while(poz)
+        {
+            lazy[poz] = 0;
+            tree[poz] = 0;
+            poz /= 2;
+        }
     }
 }
 
@@ -105,7 +113,8 @@ int32_t main()
         {
             while(it+1 < sz(last) && last[it+1] < akt[i])
                 ++it;
-
+            
+            
             add_tree(i-it+inf, +inf+inf, +akt[i]);
             add_tree(-inf+inf, i-it-1+inf, -akt[i]);
         }
