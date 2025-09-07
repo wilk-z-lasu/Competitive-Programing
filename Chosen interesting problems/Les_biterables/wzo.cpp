@@ -1,3 +1,5 @@
+//O(S), where S = s1 + s2 + ... + sn
+//fastest code I wrote for this problem
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -17,59 +19,28 @@ int s,p;
 vector<int>last;//last vector with 0 at the begining and d at the end
 vector<int>akt;//current vector with 0 at the begining and d at the end
 
-constexpr int M = (1<<20);
-int tree[2*M];
-int lazy[2*M];
+int pref[2*maxn];
 
-inline void Push(int v)
+inline void add(int a, int b, int val)//O(1)
 {
-    if(lazy[v]==0) return;
-    tree[v*2] += lazy[v];
-    lazy[v*2] += lazy[v];
-    tree[v*2+1] += lazy[v];
-    lazy[v*2+1] += lazy[v];
-    lazy[v] = 0;
+    pref[a] += val;
+    pref[b+1] -= val;
 }
-
-inline void add_tree(int a, int b, int val, int v=1, int l = 0, int r = M-1)//O(logn)
+inline int get(int a, int b)//O(b-a)
 {
-    if(r<a || b<l) return;
-    if(a<=l && r<=b)
+    int p = 0;
+    int odp = 1e18;
+    for(int i=a;i<=b;++i)
     {
-        tree[v] += val;
-        lazy[v] += val;
-        return;
+        p += pref[i];
+        odp = min(odp, p);
     }
-    int mid = (l+r)/2;
-    Push(v);
-    add_tree(a,b,val, 2*v, l, mid);
-    add_tree(a,b,val, 2*v+1, mid+1, r);
-    tree[v] = min(tree[2*v], tree[2*v+1]);
+    return odp;
 }
-inline int get_tree(int a, int b, int v=1, int l = 0, int r = M-1)//O(logn)
+inline void clear_tree(int a, int b) //O(b-a)
 {
-    if(r<a || b<l) return 1e18;
-    if(a<=l && r<=b)
-        return tree[v];
-
-    int mid = (l+r)/2;
-    Push(v);
-    int left = get_tree(a,b, 2*v, l, mid);
-    int right = get_tree(a,b, 2*v+1, mid+1, r);
-    return min(left,right);
-}
-void clear_tree(int a, int b) //O((b-a) * logn)
-{
-    for(int i = a; i <= b; ++i)
-    {
-        int poz = i + M;
-        while(poz)
-        {
-            lazy[poz] = 0;
-            tree[poz] = 0;
-            poz /= 2;
-        }
-    }
+    for(int i = a; i <= b+1; ++i)
+        pref[i] = 0;
 }
 
 int32_t main()
@@ -104,8 +75,8 @@ int32_t main()
             while(it+1 < sz(akt) && akt[it+1] <= last[i])
                 ++it;
 
-            add_tree(-inf+inf, it-i+inf, +last[i]);
-            add_tree(it-i+1+inf, +inf+inf, -last[i]);
+            add(-inf+inf, it-i+inf, +last[i]);
+            add(it-i+1+inf, +inf+inf, -last[i]);
         }
 
         it = 0;
@@ -113,17 +84,16 @@ int32_t main()
         {
             while(it+1 < sz(last) && last[it+1] < akt[i])
                 ++it;
-            
-            
-            add_tree(i-it+inf, +inf+inf, +akt[i]);
-            add_tree(-inf+inf, i-it-1+inf, -akt[i]);
+
+            add(i-it+inf, +inf+inf, +akt[i]);
+            add(-inf+inf, i-it-1+inf, -akt[i]);
         }
 
         for(int i=-inf;i<=inf;++i)
-            add_tree(i+inf,i+inf, abs(sz(akt) - sz(last) - i) * d);
+            add(i+inf,i+inf, abs(sz(akt) - sz(last) - i) * d);
 
-        cout<<get_tree(-inf+inf, inf+inf)<<'\n';
-        clear_tree(-inf+inf, inf+inf);
+        cout<<get(0, 2*inf)<<'\n';
+        clear_tree(0, 2*inf);
 
         last = akt;
         akt.clear();
