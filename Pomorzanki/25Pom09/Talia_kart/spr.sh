@@ -1,0 +1,21 @@
+g++ gen.cpp -o gen.e
+g++ wzo.cpp -o wzo.e
+g++ brut.cpp -o brut.e
+
+for i in {1..100}
+{
+    printf "$i:\n";
+
+    ./gen.e > test.in;
+    ./wzo.e < test.in > wzo.out;
+    # ./brut.e < test.in > brut.out;
+
+    # cmp -s wzo.out brut.out || {
+    #     printf "ERROR\n";
+    #     break;
+    # }
+    # cat test.in;
+    cat wzo.out;
+
+    printf "\n";
+}
