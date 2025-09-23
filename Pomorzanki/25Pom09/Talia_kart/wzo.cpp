@@ -38,7 +38,6 @@ int f(vector<int> &x)
 
 void Solve()
 {
-    
     std::random_device rd;
     std::mt19937 g(rd());
     std::uniform_int_distribution<> distribN(0, n-2);
@@ -71,7 +70,6 @@ int32_t main()
     cin.tie(0); cout.tie(0);
 
     // auto start = std::chrono::high_resolution_clock::now();
-
     cin>>n;
     for(int i=1;i<=n;++i)
         cin>>C[i]>>R[i]>>B[i];
