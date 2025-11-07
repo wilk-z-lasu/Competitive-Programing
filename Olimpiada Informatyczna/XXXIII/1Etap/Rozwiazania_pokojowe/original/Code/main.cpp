@@ -1,8 +1,17 @@
 #include <windows.h>
 #include <process.h>
 
+#include <algorithm>  // missing line in original code
+
 #include <stdio.h>
 #include <conio.h>
+
+#ifndef _MSC_VER
+// Provide compatibility for compilers that don't have scanf_s
+// Map scanf_s to scanf so existing calls compile (note: scanf_s has different semantics
+// for %s with buffer sizes on MSVC; this mapping is suitable for simple interactive use here).
+#define scanf_s scanf
+#endif
 
 #include "Solver.h"
 #include "mtwist.h"
@@ -39,13 +48,13 @@ void __cdecl PerformLengthExperiments(void *pParam){
   for(int i=0; i<repeats; i++){
     int m;
     m = g_cSolver[index].Solve();
-    nMax = max(nMax, m);
-    nMin = min(nMin, m);
+    nMax = std::max(nMax, m);
+    nMin = std::min(nMin, m);
     nSum += (long long)m;
   } //for
-  
-  g_nMax = max(g_nMax, nMax);
-  g_nMin = min(g_nMin, nMin);
+
+  g_nMax = std::max(g_nMax, nMax);
+  g_nMin = std::min(g_nMin, nMin);
   g_nSum += nSum;
   g_nCount += repeats;
         
