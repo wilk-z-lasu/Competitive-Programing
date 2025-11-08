@@ -19,7 +19,7 @@ int End[maxn][maxn];//final configuration
 vector<pair<int,pi>> moves;
 pi Rep[maxn][maxn];
 pi main_in_Rep[maxn][maxn];
-int n;//n for 15 puzzle
+int n_puzzle;//n for 15 puzzle
 int KingtoTile[maxi];
 int TiletoKing[maxi];
 int Ending_TiletoKing[maxi];
@@ -61,25 +61,14 @@ struct King {
     }
     void move_to_starting_position() //moves king to his starting position in his big tile
     {
-        // cout<<"Moving king "<<real_id<<" to starting position "<<main_in_Rep[y][x].f<<" "<<main_in_Rep[y][x].s<<"\n";
         if(real_x == main_in_Rep[y][x].s && real_y == main_in_Rep[y][x].f)
-        {
-            // cout<<"King "<<real_id<<" is already in the correct position\n";
             return;
-        }
         else if(real_x == main_in_Rep[y][x].s + 1 && real_y == main_in_Rep[y][x].f)
-        {
-            // cout<<"King "<<real_id<<" is to the right of his target, moving left\n";
             real_move('L');
-        }
         else if(real_x == main_in_Rep[y][x].s && real_y == main_in_Rep[y][x].f + 1)
-        {
-            // cout<<"King "<<real_id<<" is below his target, moving up\n";
             real_move('U');
-        }
         else if(real_x == main_in_Rep[y][x].s + 1 && real_y == main_in_Rep[y][x].f + 1)
         {
-            // cout<<"King "<<real_id<<" is diagonally misplaced, moving around\n";
             real_move('U');
             real_move('L');
         }
@@ -137,7 +126,7 @@ void get_input() {
             cin>>End[i][j];
 }
 void calculate_representatives() {
-    n = sufit(N,2);
+    n_puzzle = sufit(N,2);
     for(int i=1;i<=N;++i)
         for(int j=1;j<=N;++j)
             Rep[i][j] = {sufit(i,2), sufit(j,2)};
@@ -169,7 +158,7 @@ void map_kings()
             Kings[End[i][j]].real_ending_y = i;
             Kings[End[i][j]].ending_x = Rep[i][j].s;
             Kings[End[i][j]].ending_y = Rep[i][j].f;
-            Kings[End[i][j]].id = (Rep[i][j].f-1)*n + (Rep[i][j].s-1);
+            Kings[End[i][j]].id = (Rep[i][j].f-1)*n_puzzle + (Rep[i][j].s-1);
         }
 }
 void move_kings_to_starting_positions()
@@ -191,44 +180,44 @@ void calculate_tile_mappings()//calculate TiletoKing and KingtoTile
 {
     for(int i=1;i<=K;++i)
     {
-        TiletoKing[Kings[i].y*n + Kings[i].x] = i;
-        KingtoTile[i] = Kings[i].y*n + Kings[i].x;
-        Ending_TiletoKing[Kings[i].ending_y*n + Kings[i].ending_x] = i;
+        TiletoKing[Kings[i].y*n_puzzle + Kings[i].x] = i;
+        KingtoTile[i] = Kings[i].y*n_puzzle + Kings[i].x;
+        Ending_TiletoKing[Kings[i].ending_y*n_puzzle + Kings[i].ending_x] = i;
     }
 }
 void add_fake_Kings()//make fake kings to fill 15 puzzle
 {
     fake_king_id = K;
-    for(int i=1;i<=n;++i)
+    for(int i=1;i<=n_puzzle;++i)
     {
-        for(int j=1;j<=n;++j)
+        for(int j=1;j<=n_puzzle;++j)
         {
-            if(TiletoKing[i*n + j] != 0) continue;
+            if(TiletoKing[i*n_puzzle + j] != 0) continue;
             ++fake_king_id;
             Kings[fake_king_id].x = j;
             Kings[fake_king_id].y = i;
             Kings[fake_king_id].real_x = main_in_Rep[i][j].s;
             Kings[fake_king_id].real_y = main_in_Rep[i][j].f;
             Kings[fake_king_id].real_id = -1;
-            TiletoKing[i*n + j] = fake_king_id;
+            TiletoKing[i*n_puzzle + j] = fake_king_id;
         }
     }
 
     for(int i=1;i<=K;++i)
-        Ending_TiletoKing[Kings[i].ending_y*n + Kings[i].ending_x] = i;
+        Ending_TiletoKing[Kings[i].ending_y*n_puzzle + Kings[i].ending_x] = i;
     int fake_king_it = K;
-    for(int i=1;i<=n;++i)
+    for(int i=1;i<=n_puzzle;++i)
     {
-        for(int j=1;j<=n;++j)
+        for(int j=1;j<=n_puzzle;++j)
         {
-            if(Ending_TiletoKing[i*n + j] != 0) continue;
+            if(Ending_TiletoKing[i*n_puzzle + j] != 0) continue;
             ++fake_king_it;
             Kings[fake_king_it].ending_x = j;
             Kings[fake_king_it].ending_y = i;
             Kings[fake_king_it].real_ending_x = main_in_Rep[i][j].s;
             Kings[fake_king_it].real_ending_y = main_in_Rep[i][j].f;
-            Kings[fake_king_it].id = (i-1)*n + (j-1);
-            Ending_TiletoKing[i*n + j] = fake_king_it;
+            Kings[fake_king_it].id = (i-1)*n_puzzle + (j-1);
+            Ending_TiletoKing[i*n_puzzle + j] = fake_king_it;
         }
     }
 }
@@ -245,15 +234,15 @@ void one_move_in_ending_configuration(int y, int x, char c)
 {
     int k1,k2;
     int poz2;
-    k1 = Ending_TiletoKing[y*n+x];
+    k1 = Ending_TiletoKing[y*n_puzzle+x];
     if(c == 'L')
-        poz2 = (y)*n+(x-1);
+        poz2 = (y)*n_puzzle+(x-1);
     if(c == 'R')
-        poz2 = (y)*n+(x+1);
+        poz2 = (y)*n_puzzle+(x+1);
     if(c == 'U')
-        poz2 = (y-1)*n+x;
+        poz2 = (y-1)*n_puzzle+x;
     if(c == 'D')
-        poz2 = (y+1)*n+x;
+        poz2 = (y+1)*n_puzzle+x;
 
     k2 = Ending_TiletoKing[poz2];
 
@@ -262,7 +251,7 @@ void one_move_in_ending_configuration(int y, int x, char c)
     swap(Kings[k1].real_ending_y, Kings[k2].real_ending_y);
     swap(Kings[k1].real_ending_x, Kings[k2].real_ending_x);
     swap(Kings[k1].id, Kings[k2].id);
-    swap(Ending_TiletoKing[y*n+x], Ending_TiletoKing[poz2]);
+    swap(Ending_TiletoKing[y*n_puzzle+x], Ending_TiletoKing[poz2]);
 }
 void move_in_ending_configuration(int id, int y, int x, vector<char>& record_path)
 {
@@ -296,7 +285,7 @@ void move_in_ending_configuration(int id, int y, int x, vector<char>& record_pat
 }
 int locationtoID(int y, int x)
 {
-    return (y-1)*n + (x-1);
+    return (y-1)*n_puzzle + (x-1);
 }
 void Print_solution()
 {
@@ -311,9 +300,9 @@ void calculate_ID_mappings()
 {
     for(int i=1;i<=fake_king_id;++i)
         IDtoKing[Kings[i].id] = i;
-    for(int i=1;i<=n;++i)
-        for(int j=1;j<=n;++j)
-            tiletoID[i*n+j] = locationtoID(i,j);
+    for(int i=1;i<=n_puzzle;++i)
+        for(int j=1;j<=n_puzzle;++j)
+            tiletoID[i*n_puzzle+j] = locationtoID(i,j);
 }
 void reverse_Path(vector<char>& path, int akt_y, int akt_x)
 {
@@ -321,30 +310,30 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
     {
         if(u=='L') //goes 'R'
         {
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x+1]]].move('L');
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x]]].move('R');
-            swap(tiletoID[akt_y*n + akt_x+1], tiletoID[akt_y*n + akt_x]);
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x+1]]].move('L');
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('R');
+            swap(tiletoID[akt_y*n_puzzle + akt_x+1], tiletoID[akt_y*n_puzzle + akt_x]);
             ++akt_x;
         }
         if(u=='R') //goes 'L'
         {
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x-1]]].move('R');
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x]]].move('L');
-            swap(tiletoID[akt_y*n + akt_x-1], tiletoID[akt_y*n + akt_x]);
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x-1]]].move('R');
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('L');
+            swap(tiletoID[akt_y*n_puzzle + akt_x-1], tiletoID[akt_y*n_puzzle + akt_x]);
             --akt_x;
         }
         if(u=='U') //goes 'D'
         {
-            Kings[IDtoKing[tiletoID[(akt_y+1)*n + akt_x]]].move('U');
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x]]].move('D');
-            swap(tiletoID[(akt_y+1)*n + akt_x], tiletoID[akt_y*n + akt_x]);
+            Kings[IDtoKing[tiletoID[(akt_y+1)*n_puzzle + akt_x]]].move('U');
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('D');
+            swap(tiletoID[(akt_y+1)*n_puzzle + akt_x], tiletoID[akt_y*n_puzzle + akt_x]);
             ++akt_y;
         }
         if(u=='D') //goes 'U'
         {
-            Kings[IDtoKing[tiletoID[(akt_y-1)*n + akt_x]]].move('D');
-            Kings[IDtoKing[tiletoID[akt_y*n + akt_x]]].move('U');
-            swap(tiletoID[(akt_y-1)*n + akt_x], tiletoID[akt_y*n + akt_x]);
+            Kings[IDtoKing[tiletoID[(akt_y-1)*n_puzzle + akt_x]]].move('D');
+            Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('U');
+            swap(tiletoID[(akt_y-1)*n_puzzle + akt_x], tiletoID[akt_y*n_puzzle + akt_x]);
             --akt_y;
         }
     }
@@ -366,12 +355,12 @@ void moving_empty_tiles()
     }
     if(fake_king_id-K==1)
     {
-        move_in_ending_configuration(K+1, n,n, path1);
+        move_in_ending_configuration(K+1, n_puzzle,n_puzzle, path1);
     }
     if(fake_king_id-K>=2)
     {
-        move_in_ending_configuration(K+1, n,n, path1);
-        move_in_ending_configuration(K+2, n,n-1, path2);
+        move_in_ending_configuration(K+1, n_puzzle,n_puzzle, path1);
+        move_in_ending_configuration(K+2, n_puzzle,n_puzzle-1, path2);
     }
 }
 void returning_empty_tiles()
@@ -379,9 +368,11 @@ void returning_empty_tiles()
     calculate_ID_mappings();
     reverse(path1.begin(), path1.end());
     reverse(path2.begin(), path2.end());
-    reverse_Path(path2, n, n-1);
-    reverse_Path(path1, n, n);
+    reverse_Path(path2, n_puzzle, n_puzzle-1);
+    reverse_Path(path1, n_puzzle, n_puzzle);
 }
+
+
 
 int32_t main()
 {
@@ -400,7 +391,7 @@ int32_t main()
     moving_empty_tiles();
 
     //move kings to their ending big tiles
-    
+
 
     //if there is more then 2 fake kings make sure to solv n = 2 diffrently
 

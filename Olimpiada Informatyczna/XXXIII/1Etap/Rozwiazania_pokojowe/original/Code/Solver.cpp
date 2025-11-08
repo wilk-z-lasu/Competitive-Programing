@@ -7,7 +7,7 @@ using namespace std;
 /// \file Solver.h
 /// Header file for the Solver class CSolver.
 
-const int MAX_SIDE = 51; ///< Maximum side length of the puzzle.
+const int MAX_SIDE = 52; ///< Maximum side length of the puzzle.
 const int MAX_SIZE = MAX_SIDE*MAX_SIDE; ///< Maximum number of tiles including the blank.
 
 /// The Solver class is responsible for generating random solvable instances
