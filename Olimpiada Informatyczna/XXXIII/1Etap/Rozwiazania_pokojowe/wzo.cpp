@@ -314,6 +314,7 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x+1]]].move('L');
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('R');
             swap(tiletoID[akt_y*n_puzzle + akt_x+1], tiletoID[akt_y*n_puzzle + akt_x]);
+            swap(TiletoKing[akt_y*n_puzzle + akt_x+1], TiletoKing[akt_y*n_puzzle + akt_x]);
             ++akt_x;
         }
         if(u=='R') //goes 'L'
@@ -321,6 +322,7 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x-1]]].move('R');
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('L');
             swap(tiletoID[akt_y*n_puzzle + akt_x-1], tiletoID[akt_y*n_puzzle + akt_x]);
+            swap(TiletoKing[akt_y*n_puzzle + akt_x-1], TiletoKing[akt_y*n_puzzle + akt_x]);
             --akt_x;
         }
         if(u=='U') //goes 'D'
@@ -328,6 +330,7 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
             Kings[IDtoKing[tiletoID[(akt_y+1)*n_puzzle + akt_x]]].move('U');
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('D');
             swap(tiletoID[(akt_y+1)*n_puzzle + akt_x], tiletoID[akt_y*n_puzzle + akt_x]);
+            swap(TiletoKing[(akt_y+1)*n_puzzle + akt_x], TiletoKing[akt_y*n_puzzle + akt_x]);
             ++akt_y;
         }
         if(u=='D') //goes 'U'
@@ -335,6 +338,7 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
             Kings[IDtoKing[tiletoID[(akt_y-1)*n_puzzle + akt_x]]].move('D');
             Kings[IDtoKing[tiletoID[akt_y*n_puzzle + akt_x]]].move('U');
             swap(tiletoID[(akt_y-1)*n_puzzle + akt_x], tiletoID[akt_y*n_puzzle + akt_x]);
+            swap(TiletoKing[(akt_y-1)*n_puzzle + akt_x], TiletoKing[akt_y*n_puzzle + akt_x]);
             --akt_y;
         }
     }
@@ -363,6 +367,14 @@ void moving_empty_tiles()
         move_in_ending_configuration(K+1, n_puzzle,n_puzzle, path1);
         move_in_ending_configuration(K+2, n_puzzle,n_puzzle-1, path2);
     }
+    // cout<<"path1: ";
+    // for(auto &u: path1)
+    //   cout<<u<<' ';
+    // cout<<endl;
+    // cout<<"path2: ";
+    // for(auto &u: path2)
+    //   cout<<u<<' ';
+    // cout<<endl;
 }
 void returning_empty_tiles()
 {
@@ -846,7 +858,7 @@ int CSolver::Solve(int sizeN, vector<int> input){
   } //for
   
   //2x2 solution
-//   cout<<endl<<"jestem przed n=2"<<endl;
+  // cout<<endl<<"jestem przed n=2"<<endl;
 
   //move the blank to lower right
   switch(m_nBlankPosition){
@@ -856,70 +868,84 @@ int CSolver::Solve(int sizeN, vector<int> input){
     case 3: break; //do nothing     
   } //switch
 
-    //if there is more then 2 fake kings make sure to solv n = 2 diffrently
-    if(fake_king_id - K >= 2)
-    {
-        int k1 = TiletoKing[Blank-n_puzzle-1];
-        int k2 = TiletoKing[Blank-n_puzzle];
-        int k3 = TiletoKing[Blank-1];
-        int k4 = TiletoKing[Blank];
+  // {
+  //   int k1 = TiletoKing[Blank-n_puzzle-1];
+  //   int k2 = TiletoKing[Blank-n_puzzle];
+  //   int k3 = TiletoKing[Blank-1];
+  //   int k4 = TiletoKing[Blank];
+  //   cout<<"before n=2 solution:"<<endl;
+  //   cout<<Kings[k1].id<<' '<<Kings[k2].id<<'\n'<<Kings[k3].id<<' '<<Kings[k4].id<<endl;
+  // }
+  
+  //if there is more then 2 fake kings make sure to solv n = 2 diffrently
+  if(fake_king_id - K >= 2)
+  {
+      int p1 = Blank-n_puzzle-1;
+      int p2 = Blank-n_puzzle;
+      int p3 = Blank-1;
+      int p4 = Blank;
 
-        if(m_nTileToPosition[2]==2)
-            int do_nothing=0;
-        else if(m_nTileToPosition[2]==0)
-        {
-            Kings[k1].move('D');
-            Kings[k3].move('U');
-            swap(TiletoKing[k2], TiletoKing[k4]);
-        }
-        else if(m_nTileToPosition[2]==1)
-        {
-            Kings[k2].move('L');
-            Kings[k1].move('R');
-            swap(TiletoKing[k2], TiletoKing[k1]);
+      if(m_nTileToPosition[2]==2)
+          int do_nothing=0;
+      else if(m_nTileToPosition[2]==0)
+      {
+          Kings[TiletoKing[p1]].move('D');
+          Kings[TiletoKing[p3]].move('U');
+          swap(TiletoKing[p1], TiletoKing[p3]);
+      }
+      else if(m_nTileToPosition[2]==1)
+      {
+          Kings[TiletoKing[p2]].move('L');
+          Kings[TiletoKing[p1]].move('R');
+          swap(TiletoKing[p2], TiletoKing[p1]);
 
-            Kings[k2].move('D');
-            Kings[k3].move('U');
-            swap(TiletoKing[k2], TiletoKing[k3]);
-        }
+          Kings[TiletoKing[p2]].move('D');
+          Kings[TiletoKing[p3]].move('U');
+          swap(TiletoKing[p2], TiletoKing[p3]);
+      }
+      
+      p1 = Blank-n_puzzle-1;
+      p2 = Blank-n_puzzle;
+      p3 = Blank-1;
+      p4 = Blank;
+      // solution for n=2 when there are at least 2 empty tiles
+      if(Kings[TiletoKing[p1]].id > Kings[TiletoKing[p2]].id) //case 1 0 2 3, otherwise 0 1 2 3 which is correct
+      {
+          Kings[TiletoKing[p2]].move('D');
+          Kings[TiletoKing[p4]].move('U');
+          swap(TiletoKing[p2], TiletoKing[p4]);
 
-        k1 = TiletoKing[Blank-n_puzzle-1];
-        k2 = TiletoKing[Blank-n_puzzle];
-        k3 = TiletoKing[Blank-1];
-        k4 = TiletoKing[Blank];
-        // cout<<"Blank at: "<<Blank<<endl;
-        // solution for n=2 when there are at least 2 empty tiles
-        if(m_nTileToPosition[0]==0 && m_nTileToPosition[1]==1)
-            int do_nothing=0;
-        else if(m_nTileToPosition[0]==1 && m_nTileToPosition[1]==0)
-        {
-            Kings[k2].move('D');
-            Kings[k4].move('U');
-            swap(TiletoKing[k2], TiletoKing[k4]);
+          Kings[TiletoKing[p4]].move('L');
+          Kings[TiletoKing[p3]].move('R');
+          swap(TiletoKing[p4], TiletoKing[p3]);
 
-            Kings[k2].move('L');
-            Kings[k3].move('R');
-            swap(TiletoKing[k2], TiletoKing[k3]);
+          Kings[TiletoKing[p1]].move('R');
+          Kings[TiletoKing[p2]].move('L');
+          swap(TiletoKing[p1], TiletoKing[p2]);
 
-            Kings[k1].move('R');
-            Kings[k4].move('L');
-            swap(TiletoKing[k1], TiletoKing[k4]);
+          Kings[TiletoKing[p3]].move('U');
+          Kings[TiletoKing[p1]].move('D');
+          swap(TiletoKing[p3], TiletoKing[p1]);
 
-            Kings[k2].move('U');
-            Kings[k4].move('D');
-            swap(TiletoKing[k2], TiletoKing[k4]);
+          Kings[TiletoKing[p3]].move('R');
+          Kings[TiletoKing[p4]].move('L');
+          swap(TiletoKing[p3], TiletoKing[p4]);
+      }
 
-            Kings[k4].move('R');
-            Kings[k3].move('L');
-            swap(TiletoKing[k4], TiletoKing[k3]);
-        }
-        return m_nMoveCount;
-    }
-//   if(N%2==0)
-//   {
-//     //parzysta liczba pustych pol w pelnym ukladzie
-//     //zawsze da sie rozwiazac idac na krzyz
-//   }
+      // int k1 = TiletoKing[Blank-n_puzzle-1];
+      // int k2 = TiletoKing[Blank-n_puzzle];
+      // int k3 = TiletoKing[Blank-1];
+      // int k4 = TiletoKing[Blank];
+      // cout<<"after n=2 solution:"<<endl;
+      // cout<<Kings[k1].id<<' '<<Kings[k2].id<<'\n'<<Kings[k3].id<<' '<<Kings[k4].id<<endl;
+        
+      return m_nMoveCount;
+  }
+// //   if(N%2==0)
+// //   {
+// //     //parzysta liczba pustych pol w pelnym ukladzie
+// //     //zawsze da sie rozwiazac idac na krzyz
+// //   }
 
   //one cycle left or right as appropriate to finish
   switch(m_nTileToPosition[2]){
@@ -1019,6 +1045,17 @@ int32_t main()
 
     returning_empty_tiles();
     move_kings_to_ending_positions();
+
+    // for(int i=1;i<=n_puzzle;++i)
+    // {
+    //     for(int j=1;j<=n_puzzle;++j)
+    //     {
+    //         int id = Kings[TiletoKing[i*n_puzzle + j]].real_id;
+    //         cout<<id<<' ';
+    //     }
+    //     cout<<endl;
+    // }
+
     Print_solution();
     return 0;
 }
