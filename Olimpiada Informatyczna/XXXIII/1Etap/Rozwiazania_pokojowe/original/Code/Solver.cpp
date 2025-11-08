@@ -3,10 +3,61 @@
 
 #include <Windows.h>
 #include <stdio.h>
+#include <iostream>
 
-#include "Solver.h"
+/// \file Solver.h
+/// Header file for the Solver class CSolver.
 
-extern int g_nPuzzleSize;
+#pragma once
+
+const int MAX_SIDE = 51; ///< Maximum side length of the puzzle.
+const int MAX_SIZE = MAX_SIDE*MAX_SIDE; ///< Maximum number of tiles including the blank.
+
+/// The Solver class is responsible for generating random solvable instances
+/// of the puzzle and solving them using the greedy algorithm.
+
+class CSolver{
+  private:
+    
+    int m_nMoveCount; ///< Number of moves used in the current solution.
+    int m_nSize; ///< Size of current sub-puzzle.
+    int m_nTileToPosition[MAX_SIZE]; ///< Map from number on tile to its position.
+    int m_nPositionToTile[MAX_SIZE]; ///< Map from position to number on tile.
+    bool m_bLocked[MAX_SIZE]; /// < For each position, whether the tile in that position is locked.
+
+    int m_nCurrentTile; ///< The current tile being moved to its home position.
+
+    int m_nTilePosition; ///< The position of the current tile.
+    int m_nTileRow; ///< The row that the current tile is in.
+    int m_nTileCol; ///< The row that the current tile is in.
+  
+    int m_nHomePosition; ///< The home position of the current tile.
+    int m_nHomeRow; ///< The row that the current tile's home is in.
+    int m_nHomeCol; ///< The column that the current tile's home is in.
+    
+    int m_nBlankPosition; ///< The position of the blank.
+    int m_nBlankRow; ///< The row that the blank is in.
+    int m_nBlankCol;  ///< The column that the blank is in. 
+
+    void Remap(const int n); ///< Remap the puzzle to the next size down.
+    void Reset(); ///< Reset the puzzle to initial conditions.
+    void SwapTilesAtPosition(const int i, const int j); /// Swap two tiles.
+    void PermuteTiles(); ///< Compute a random even permutation of the tiles.
+    void ComputePositions(); ///< Recompute the positions, rows, and columns of the current tile and blank.
+    void SimulateMove(const char* m); ///< Simulate a sequence of moves.
+    void MoveTileUpTo(const int tile, const int dest); ///< Move a tile to a destination above it.
+    void MoveTileLeftTo(const int tile, const int dest); ///< Move a tile to a destination to the left of it.
+    void MoveBlankWhileAvoiding(const int dest, const int avoid); ///< Move the blank while avoiding some tiles.
+    void MoveBlankWhileAvoiding(const int dest); ///< Move the blank while avoiding locked tiles.
+
+    void SolveFirstRow(const int m);  ///< Solve the first row.
+    void SolveFirstCol(const int m);  ///< Solve the first column.
+
+  public:
+    int Solve(); ///< Find the number of moves needed to solve a random configuration of the puzzle.
+}; //CSolver
+
+int g_nPuzzleSize;
 
 /// Compute the position, row, and column of the current tile,
 /// its home, and the blank. 
@@ -34,6 +85,7 @@ void CSolver::ComputePositions(){
 void CSolver::SimulateMove(const char* m){
   int count = strlen(m);
   for(int j=0; j<count; j++){
+    std::cout<<m[j];
     int nBlank = m_nBlankPosition;
     int nTile = nBlank;
     switch(m[j]){
@@ -364,7 +416,7 @@ void CSolver::SolveFirstCol(const int n){
 int CSolver::Solve(){
   //initialize
   Reset();
-  PermuteTiles();
+  PermuteTiles();//gets input
   m_nMoveCount = 0;
 
   //all tiles are unlocked
@@ -383,23 +435,34 @@ int CSolver::Solve(){
   
   //2x2 solution
 
-  //move the blank to lower right
-  switch(m_nBlankPosition){
-    case 0: SimulateMove("RD"); break;
-    case 1: SimulateMove("D"); break; 
-    case 2: SimulateMove("R"); break;
-    case 3: break; //do nothing     
-  } //switch
+  // //move the blank to lower right
+  // switch(m_nBlankPosition){
+  //   case 0: SimulateMove("RD"); break;
+  //   case 1: SimulateMove("D"); break; 
+  //   case 2: SimulateMove("R"); break;
+  //   case 3: break; //do nothing     
+  // } //switch
 
-  //one cycle left or right as appropriate to finish
-  switch(m_nTileToPosition[2]){
-    case 0: SimulateMove("LURD"); break;
-    case 1: SimulateMove("ULDR");  break;  
-    case 2: //do nothing 
-    case 3: //not possible
-      break;
-  } //switch
-  
+  // //one cycle left or right as appropriate to finish
+  // switch(m_nTileToPosition[2]){
+  //   case 0: SimulateMove("LURD"); break;
+  //   case 1: SimulateMove("ULDR");  break;  
+  //   case 2: //do nothing 
+  //   case 3: //not possible
+  //     break;
+  // } //switch
+
+  //cout n=2
+  std::cout<<std::endl;
+  for(int I=0; I<4; I++)
+    {
+      std::cout<<m_nPositionToTile[I]<<" ";
+      if((I+1)%2==0)
+        std::cout<<std::endl;
+    }
+    std::cout<<std::endl;
+  //cout n=2
+
   return m_nMoveCount;
 } //Solve
 
@@ -430,38 +493,18 @@ void CSolver::Reset(){
 /// are the ones that are solvable).
 
 void CSolver::PermuteTiles(){
-  Reset(); //reset to solved state
+  std::cin >> g_nPuzzleSize;
+  // Reset(); //reset to solved state
   int sq = g_nPuzzleSize*g_nPuzzleSize - 1; //number of tiles
 
   int nTranspositions = 0; //number of transpositions (must be even)
 
-  //generate random permutation
-  for(int i=sq-1; i>1; i--){ //for each tile
-    int j = m_cMersenneTwister.rand()%(i+1); //choose one to swap it with
-    if(i != j)nTranspositions++; //count number of transpositions
-    SwapTilesAtPosition(i, j); //swap tiles in positions i and j
-  } //for
-
-  //make sure it's an even permutation
-  if(nTranspositions & 1) //if there are an odd number of transpositions
-    SwapTilesAtPosition(0, 1); //make one more
-
-  //move the blank to a random place
-  int x = m_cMersenneTwister.rand()%g_nPuzzleSize; //random column delta
-  int y = m_cMersenneTwister.rand()%g_nPuzzleSize; //random row delta
-
-  //vertical motion by y
-  for(int i=0; i<y; i++)
-    SwapTilesAtPosition(sq - g_nPuzzleSize*i, sq - g_nPuzzleSize*(i + 1));
-    
-  //horizontal motion by x
-  for(int i=0; i<x; i++)
-    SwapTilesAtPosition(sq - g_nPuzzleSize*y - i, sq - g_nPuzzleSize*y - i);
+  for(int i=0; i<=sq; ++i)
+  {
+    int x; std::cin>>x;
+    if(x==0) x = sq;
+    else --x;
+    m_nTileToPosition[x] = i;
+    m_nPositionToTile[i] = x;
+  }
 } //PermuteTiles
-
-/// Seed the random number generator with a given value.
-/// \param seed The seed.
-
-void CSolver::srand(const int seed){
-  m_cMersenneTwister.srand(seed);
-} //srand

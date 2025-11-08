@@ -3,9 +3,7 @@
 
 #pragma once
 
-#include "mtwist.h"
-
-const int MAX_SIDE = 200; ///< Maximum side length of the puzzle.
+const int MAX_SIDE = 51; ///< Maximum side length of the puzzle.
 const int MAX_SIZE = MAX_SIDE*MAX_SIDE; ///< Maximum number of tiles including the blank.
 
 /// The Solver class is responsible for generating random solvable instances
@@ -13,7 +11,6 @@ const int MAX_SIZE = MAX_SIDE*MAX_SIDE; ///< Maximum number of tiles including t
 
 class CSolver{
   private:
-    CMersenneTwister m_cMersenneTwister; ///< Pseudorandom number generator.
     
     int m_nMoveCount; ///< Number of moves used in the current solution.
     int m_nSize; ///< Size of current sub-puzzle.
@@ -51,5 +48,4 @@ class CSolver{
 
   public:
     int Solve(); ///< Find the number of moves needed to solve a random configuration of the puzzle.
-    void srand(const int seed); ///< Seed the random number generator.
 }; //CSolver
