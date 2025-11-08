@@ -1,14 +1,11 @@
 /// \file Solver.cpp
 /// Code file for the Solver class CSolver.
 
-#include <Windows.h>
-#include <stdio.h>
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 
 /// \file Solver.h
 /// Header file for the Solver class CSolver.
-
-#pragma once
 
 const int MAX_SIDE = 51; ///< Maximum side length of the puzzle.
 const int MAX_SIZE = MAX_SIDE*MAX_SIDE; ///< Maximum number of tiles including the blank.
@@ -42,7 +39,6 @@ class CSolver{
     void Remap(const int n); ///< Remap the puzzle to the next size down.
     void Reset(); ///< Reset the puzzle to initial conditions.
     void SwapTilesAtPosition(const int i, const int j); /// Swap two tiles.
-    void PermuteTiles(); ///< Compute a random even permutation of the tiles.
     void ComputePositions(); ///< Recompute the positions, rows, and columns of the current tile and blank.
     void SimulateMove(const char* m); ///< Simulate a sequence of moves.
     void MoveTileUpTo(const int tile, const int dest); ///< Move a tile to a destination above it.
@@ -54,7 +50,7 @@ class CSolver{
     void SolveFirstCol(const int m);  ///< Solve the first column.
 
   public:
-    int Solve(); ///< Find the number of moves needed to solve a random configuration of the puzzle.
+    int Solve(int sizeN, std::vector<int> input); ///< Find the number of moves needed to solve a random configuration of the puzzle.
 }; //CSolver
 
 int g_nPuzzleSize;
@@ -413,10 +409,18 @@ void CSolver::SolveFirstCol(const int n){
 /// Randomize the puzzle and measure the number of moves it takes to solve it.
 /// \return Number of moves.
 
-int CSolver::Solve(){
+int CSolver::Solve(int sizeN, std::vector<int> input){
   //initialize
-  Reset();
-  PermuteTiles();//gets input
+  g_nPuzzleSize = sizeN;
+  int sq = g_nPuzzleSize*g_nPuzzleSize - 1; //number of tiles
+  for(int i=0; i<=sq; ++i)
+  {
+    int x = input[i];
+    if(x==0) x = sq;
+    else --x;
+    m_nTileToPosition[x] = i;
+    m_nPositionToTile[i] = x;
+  }
   m_nMoveCount = 0;
 
   //all tiles are unlocked
@@ -489,22 +493,20 @@ void CSolver::Reset(){
     m_nTileToPosition[i] = m_nPositionToTile[i] = i;
 } //Reset
 
-/// Compute a random even permutation of the tiles (which, it is well known,
-/// are the ones that are solvable).
+int main()
+{
+  CSolver solver;
 
-void CSolver::PermuteTiles(){
-  std::cin >> g_nPuzzleSize;
-  // Reset(); //reset to solved state
-  int sq = g_nPuzzleSize*g_nPuzzleSize - 1; //number of tiles
+  int n,x;
+  std::vector<int> vec;
 
-  int nTranspositions = 0; //number of transpositions (must be even)
-
-  for(int i=0; i<=sq; ++i)
+  std::cin>>n;
+  for(int i=1;i<=n*n;++i)
   {
-    int x; std::cin>>x;
-    if(x==0) x = sq;
-    else --x;
-    m_nTileToPosition[x] = i;
-    m_nPositionToTile[i] = x;
+      std::cin>>x;
+      vec.push_back(x);
   }
-} //PermuteTiles
+  int result = solver.Solve(n, vec);
+  std::cout<<result<<std::endl;
+  return 0;
+}

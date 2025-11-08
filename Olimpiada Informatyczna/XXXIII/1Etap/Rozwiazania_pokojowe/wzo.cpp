@@ -350,6 +350,39 @@ void reverse_Path(vector<char>& path, int akt_y, int akt_x)
     }
 }
 
+vector<char>path1;
+vector<char>path2;
+void moving_empty_tiles()
+{
+    if(fake_king_id-K==0)
+    {
+        if(check_if_no_blank_configuration_is_solved())
+        {
+            move_kings_to_ending_positions();
+            Print_solution();
+        }
+        else
+            not_possible();
+    }
+    if(fake_king_id-K==1)
+    {
+        move_in_ending_configuration(K+1, n,n, path1);
+    }
+    if(fake_king_id-K>=2)
+    {
+        move_in_ending_configuration(K+1, n,n, path1);
+        move_in_ending_configuration(K+2, n,n-1, path2);
+    }
+}
+void returning_empty_tiles()
+{
+    calculate_ID_mappings();
+    reverse(path1.begin(), path1.end());
+    reverse(path2.begin(), path2.end());
+    reverse_Path(path2, n, n-1);
+    reverse_Path(path1, n, n);
+}
+
 int32_t main()
 {
     ios_base::sync_with_stdio(0);
@@ -363,48 +396,15 @@ int32_t main()
     calculate_tile_mappings();
     add_fake_Kings();
 
-    if(fake_king_id-K==0)
-    {
-        if(check_if_no_blank_configuration_is_solved())
-        {
-            move_kings_to_ending_positions();
-            Print_solution();
-        }
-        else
-            not_possible();
-    }
-    vector<char>path1;
-    vector<char>path2;
-    if(fake_king_id-K==1)
-    {
-        move_in_ending_configuration(K+1, n,n, path1);
-    }
-    if(fake_king_id-K>=2)
-    {
-        move_in_ending_configuration(K+1, n,n, path1);
-        move_in_ending_configuration(K+2, n,n-1, path2);
-    }
-
-    for(int i=1;i<=n;++i)
-    {
-        for(int j=1;j<=n;++j)
-        {
-            cout<<Kings[Ending_TiletoKing[i*n+j]].id<<' ';
-        }
-        cout<<endl;
-    }
-    
     //move empty tiles to last two positions in ending configuration
+    moving_empty_tiles();
 
     //move kings to their ending big tiles
+    
 
     //if there is more then 2 fake kings make sure to solv n = 2 diffrently
 
-    calculate_ID_mappings();
-    reverse(path1.begin(), path1.end());
-    reverse(path2.begin(), path2.end());
-    reverse_Path(path2, n, n-1);
-    reverse_Path(path1, n, n);
+    returning_empty_tiles();
 
     move_kings_to_ending_positions();
     Print_solution();
