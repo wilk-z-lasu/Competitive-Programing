@@ -903,11 +903,7 @@ int CSolver::Solve(int sizeN, vector<int> input){
           Kings[TiletoKing[p3]].move('U');
           swap(TiletoKing[p2], TiletoKing[p3]);
       }
-      
-      p1 = Blank-n_puzzle-1;
-      p2 = Blank-n_puzzle;
-      p3 = Blank-1;
-      p4 = Blank;
+
       // solution for n=2 when there are at least 2 empty tiles
       if(Kings[TiletoKing[p1]].id > Kings[TiletoKing[p2]].id) //case 1 0 2 3, otherwise 0 1 2 3 which is correct
       {
