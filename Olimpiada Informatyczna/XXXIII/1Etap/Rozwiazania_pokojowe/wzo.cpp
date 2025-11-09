@@ -76,13 +76,13 @@ struct King {
     }
     void move_to_ending_position() //moves king to his ending position in a big tile
     {
-        if(real_x == ending_x && real_y == ending_y)
+        if(real_x == real_ending_x && real_y == real_ending_y)
             return;
-        else if(real_x == ending_x - 1 && real_y == ending_y)
+        else if(real_x == real_ending_x - 1 && real_y == real_ending_y)
             real_move('R');
-        else if(real_x == ending_x && real_y == ending_y - 1)
+        else if(real_x == real_ending_x && real_y == real_ending_y - 1)
             real_move('D');
-        else if(real_x == ending_x - 1 && real_y == ending_y - 1)
+        else if(real_x == real_ending_x - 1 && real_y == real_ending_y - 1)
         {
             real_move('D');
             real_move('R');
@@ -899,9 +899,9 @@ int CSolver::Solve(int sizeN, vector<int> input){
           Kings[TiletoKing[p1]].move('R');
           swap(TiletoKing[p2], TiletoKing[p1]);
 
-          Kings[TiletoKing[p2]].move('D');
+          Kings[TiletoKing[p1]].move('D');
           Kings[TiletoKing[p3]].move('U');
-          swap(TiletoKing[p2], TiletoKing[p3]);
+          swap(TiletoKing[p1], TiletoKing[p3]);
       }
 
       // solution for n=2 when there are at least 2 empty tiles
