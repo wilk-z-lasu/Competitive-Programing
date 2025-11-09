@@ -84,8 +84,8 @@ struct King {
             real_move('D');
         else if(real_x == real_ending_x - 1 && real_y == real_ending_y - 1)
         {
-            real_move('D');
             real_move('R');
+            real_move('D');
         }    
     }
     void move(char c)//moves king in 15 puzzle
@@ -164,13 +164,19 @@ void map_kings()
 }
 void move_kings_to_starting_positions()
 {
-    for(int i=1;i<=K;++i)
-        Kings[i].move_to_starting_position();
+    for(int i=1;i<=n_puzzle;++i)
+        for(int j=1;j<=n_puzzle;++j)
+            Kings[TiletoKing[i*n_puzzle + j]].move_to_starting_position();
+    // for(int i=1;i<=K;++i)
+    //     Kings[i].move_to_starting_position();
 }
 void move_kings_to_ending_positions()
 {
-    for(int i=1;i<=K;++i)
-        Kings[i].move_to_ending_position();
+    for(int i=n_puzzle;i>=1;--i)
+        for(int j=n_puzzle;j>=1;--j)
+            Kings[TiletoKing[i*n_puzzle + j]].move_to_ending_position();
+    // for(int i=1;i<=K;++i)
+    //     Kings[i].move_to_ending_position();
 }
 void not_possible()
 {
@@ -998,11 +1004,17 @@ int32_t main()
     cout.tie(0);
 
     get_input();
+    if(N%2==0)
+    {
+        cout << "TAK\n";
+        return 0;        
+    }
+
     calculate_representatives();
     map_kings();
-    move_kings_to_starting_positions();
     calculate_tile_mappings();
     add_fake_Kings();
+    move_kings_to_starting_positions();
 
     //move empty tiles to last two positions in ending configuration
     moving_empty_tiles();
