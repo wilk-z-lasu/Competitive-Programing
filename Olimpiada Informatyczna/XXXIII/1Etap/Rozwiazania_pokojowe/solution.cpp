@@ -7,7 +7,7 @@ using namespace std;
 #define pb push_back
 #define pi pair<int,int>
 
-constexpr int maxn = 200+7;
+constexpr int maxn = 100+7;
 constexpr int maxk = 2500+7;
 constexpr int maxi = 107*107;
 
