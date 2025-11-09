@@ -249,8 +249,6 @@ void one_move_in_ending_configuration(int y, int x, char c)
 
     swap(Kings[k1].ending_y, Kings[k2].ending_y);
     swap(Kings[k1].ending_x, Kings[k2].ending_x);
-    swap(Kings[k1].real_ending_y, Kings[k2].real_ending_y);
-    swap(Kings[k1].real_ending_x, Kings[k2].real_ending_x);
     swap(Kings[k1].id, Kings[k2].id);
     swap(Ending_TiletoKing[y*n_puzzle+x], Ending_TiletoKing[poz2]);
 }
