@@ -189,16 +189,12 @@ void move_kings_to_starting_positions()
     for(int i=1;i<=n_puzzle;++i)
         for(int j=1;j<=n_puzzle;++j)
             Kings[TiletoKing[i*n_puzzle + j]].move_to_starting_position();
-    // for(int i=1;i<=K;++i)
-    //     Kings[i].move_to_starting_position();
 }
 void move_kings_to_ending_positions()
 {
     for(int i=n_puzzle;i>=1;--i)
         for(int j=n_puzzle;j>=1;--j)
             Kings[TiletoKing[i*n_puzzle + j]].move_to_ending_position();
-    // for(int i=1;i<=K;++i)
-    //     Kings[i].move_to_ending_position();
 }
 void not_possible()
 {
@@ -393,14 +389,6 @@ void moving_empty_tiles()
         move_in_ending_configuration(K+1, n_puzzle,n_puzzle, path1);
         move_in_ending_configuration(K+2, n_puzzle,n_puzzle-1, path2);
     }
-    // cout<<"path1: ";
-    // for(auto &u: path1)
-    //   cout<<u<<' ';
-    // cout<<endl;
-    // cout<<"path2: ";
-    // for(auto &u: path2)
-    //   cout<<u<<' ';
-    // cout<<endl;
 }
 void returning_empty_tiles()
 {
@@ -856,17 +844,12 @@ int CSolver::Solve(int sizeN, vector<int> input){
   //initialize
   g_nPuzzleSize = sizeN;
   int sq = g_nPuzzleSize*g_nPuzzleSize - 1; //number of tiles
-//   cout<<"x: ";
   for(int i=0; i<=sq; ++i)
   {
     int x = input[i];
-    // if(x==0) x = sq;
-    // else --x;
-    // cout<<x<<' ';
     m_nTileToPosition[x] = i;
     m_nPositionToTile[i] = x;
   }
-//   cout<<endl;
   m_nMoveCount = 0;
 
   //all tiles are unlocked
@@ -884,7 +867,6 @@ int CSolver::Solve(int sizeN, vector<int> input){
   } //for
   
   //2x2 solution
-  // cout<<endl<<"jestem przed n=2"<<endl;
 
   //move the blank to lower right
   switch(m_nBlankPosition){
@@ -894,15 +876,6 @@ int CSolver::Solve(int sizeN, vector<int> input){
     case 3: break; //do nothing     
   } //switch
 
-  // {
-  //   int k1 = TiletoKing[Blank-n_puzzle-1];
-  //   int k2 = TiletoKing[Blank-n_puzzle];
-  //   int k3 = TiletoKing[Blank-1];
-  //   int k4 = TiletoKing[Blank];
-  //   cout<<"before n=2 solution:"<<endl;
-  //   cout<<Kings[k1].id<<' '<<Kings[k2].id<<'\n'<<Kings[k3].id<<' '<<Kings[k4].id<<endl;
-  // }
-  
   //if there is more then 2 fake kings make sure to solv n = 2 diffrently
   if(fake_king_id - K >= 2)
   {
@@ -953,20 +926,11 @@ int CSolver::Solve(int sizeN, vector<int> input){
           Kings[TiletoKing[p4]].move('L');
           swap(TiletoKing[p3], TiletoKing[p4]);
       }
-
-      // int k1 = TiletoKing[Blank-n_puzzle-1];
-      // int k2 = TiletoKing[Blank-n_puzzle];
-      // int k3 = TiletoKing[Blank-1];
-      // int k4 = TiletoKing[Blank];
-      // cout<<"after n=2 solution:"<<endl;
-      // cout<<Kings[k1].id<<' '<<Kings[k2].id<<'\n'<<Kings[k3].id<<' '<<Kings[k4].id<<endl;
-        
       return m_nMoveCount;
   }
   if(N%2==0)
   {
-    //parzysta liczba pustych pol w pelnym ukladzie
-    //zawsze da sie rozwiazac idac na krzyz
+    //always solvable
     int p1 = Blank-n_puzzle-1;
     int p2 = Blank-n_puzzle;
     int p3 = Blank-1;
@@ -1007,17 +971,6 @@ int CSolver::Solve(int sizeN, vector<int> input){
     case 3: //not possible
       break;
   } //switch
-
-// //   ----cout n=2
-//   std::cout<<std::endl;
-//   for(int I=0; I<4; I++)
-//     {
-//       std::cout<<m_nPositionToTile[I]<<" ";
-//       if((I+1)%2==0)
-//         std::cout<<std::endl;
-//     }
-//     std::cout<<std::endl;
-// //   ----cout n=2
 
   if(m_nTileToPosition[0] != 0 || m_nTileToPosition[1] != 1 || m_nTileToPosition[2] != 2 || m_nTileToPosition[3] != 3)
     not_possible();
@@ -1066,17 +1019,6 @@ int32_t main()
     moving_empty_tiles();
 
     //move kings to their ending big tiles
-
-    // for(int i=1;i<=n_puzzle;++i)
-    // {
-    //     for(int j=1;j<=n_puzzle;++j)
-    //     {
-    //         int id = Kings[TiletoKing[i*n_puzzle + j]].id;
-    //         cout<<id<<' ';
-    //     }
-    //     cout<<endl;
-    // }
-    
     CSolver solver;
     vector<int> vec;
     for(int i=1;i<=n_puzzle;++i)
@@ -1089,25 +1031,10 @@ int32_t main()
                 Blank = i*n_puzzle + j;
         }
     }
-
-    // cout<<"Blank at: "<<Blank<<endl;
-
     int result = solver.Solve(n_puzzle, vec);
-    // cout<<"result: "<<result<<endl;
 
     returning_empty_tiles();
     move_kings_to_ending_positions();
-
-    // for(int i=1;i<=n_puzzle;++i)
-    // {
-    //     for(int j=1;j<=n_puzzle;++j)
-    //     {
-    //         int id = Kings[TiletoKing[i*n_puzzle + j]].real_id;
-    //         cout<<id<<' ';
-    //     }
-    //     cout<<endl;
-    // }
-
     Print_solution();
     return 0;
 }
