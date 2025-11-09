@@ -115,7 +115,29 @@ struct King {
             x++;
         }
     }
-} Kings[maxi];//first k kings are real
+    void diagonal_move_down()
+    {
+        real_y++;
+        real_x++;
+        record_real_move();
+        real_y++;
+        real_x++;
+        record_real_move();
+        ++x;
+        ++y;
+    }
+    void diagonal_move_up()
+    {
+        real_y--;
+        real_x--;
+        record_real_move();
+        real_y--;
+        real_x--;
+        record_real_move();
+        --x;
+        --y;
+    }
+  } Kings[maxi];//first k kings are real
 
 void get_input() {
     cin>>N>>K;
@@ -941,11 +963,41 @@ int CSolver::Solve(int sizeN, vector<int> input){
         
       return m_nMoveCount;
   }
-// //   if(N%2==0)
-// //   {
-// //     //parzysta liczba pustych pol w pelnym ukladzie
-// //     //zawsze da sie rozwiazac idac na krzyz
-// //   }
+  if(N%2==0)
+  {
+    //parzysta liczba pustych pol w pelnym ukladzie
+    //zawsze da sie rozwiazac idac na krzyz
+    int p1 = Blank-n_puzzle-1;
+    int p2 = Blank-n_puzzle;
+    int p3 = Blank-1;
+    int p4 = Blank;
+
+    if((m_nTileToPosition[0] == 1 && m_nTileToPosition[2] == 2) || //case 2
+      (m_nTileToPosition[1] == 1 && m_nTileToPosition[0] == 2) || //case 5
+      (m_nTileToPosition[2] == 1 && m_nTileToPosition[1] == 2)) //case 6
+      {
+        //swap diagonally
+        Kings[TiletoKing[p2]].real_move('R');
+        Kings[TiletoKing[p3]].real_move('D');
+
+        Kings[TiletoKing[p1]].diagonal_move_down();
+        Kings[TiletoKing[p4]].diagonal_move_up();
+
+        swap(TiletoKing[p1], TiletoKing[p4]);
+        SwapTilesAtPosition(0, 3);
+        ComputePositions();
+
+        Kings[TiletoKing[p2]].real_move('L');
+        Kings[TiletoKing[p3]].real_move('U');
+        //move the blank to lower right
+        switch(m_nBlankPosition){
+          case 0: SimulateMove("RD"); break;
+          case 1: SimulateMove("D"); break; 
+          case 2: SimulateMove("R"); break;
+          case 3: break; //do nothing     
+        } //switch
+      }
+  }
 
   //one cycle left or right as appropriate to finish
   switch(m_nTileToPosition[2]){
@@ -1004,12 +1056,6 @@ int32_t main()
     cout.tie(0);
 
     get_input();
-    if(N%2==0)
-    {
-        cout << "TAK\n";
-        return 0;        
-    }
-
     calculate_representatives();
     map_kings();
     calculate_tile_mappings();
