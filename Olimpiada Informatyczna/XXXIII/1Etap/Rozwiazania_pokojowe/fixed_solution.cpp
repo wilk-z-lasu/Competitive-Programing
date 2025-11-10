@@ -1,3 +1,35 @@
+/* 
+  Wykorzystane źródła (EN: Used sources):
+
+  [1] Wikipedia – "15-puzzle":
+      https://en.wikipedia.org/wiki/15_puzzle
+
+  [2] Wojciech Rytter – "Wprowadzenie do kombinatoryki algorytmicznej": 
+      https://www.mimuw.edu.pl/~rytter/TEACHING/ALCOMB/index1.pdf
+
+  [3] Ian Parberry – "A Real-Time Algorithm for the (n2 − 1)-Puzzle":
+      https://ianparberry.com/pubs/saml.pdf
+
+  [4] Ian Parberry – "The (n2−1)-Puzzle (2015)":
+      https://ianparberry.com/research/n2minus1puzzle/
+
+  [5] Ian Parberry – "Solving the (n2 − 1)-Puzzle with 8/3 n3 Expected Moves", MDPI Algorithms 2015:
+      https://www.mdpi.com/1999-4893/8/3/459
+
+  Kod źródłowy z materiałów uzupełniających artykułu [5] jest licencjonowany na zasadach:
+      Creative Commons Attribution 4.0 (CC BY 4.0):
+      http://creativecommons.org/licenses/by/4.0/
+  Materiały uzupełniające można znaleźć bezpośrednio pod linkiem: http://www.mdpi.com/1999-4893/8/3/459/s1
+  Kod źródłowy jest zmodyfikowany.
+
+  Źródła wykorzystane zgodnie z zasadami olimpaidy: "W trakcie rozwiązywania zadań można korzystać z dowolnych ogólnodostępnych źródeł, w szczególności literatury, kodów źródłowych oraz narzędzi dostępnych w Internecie pod warunkiem podania w rozwiązaniu, w komentarzu, precyzyjnej informacji o wykorzystanych źródłach."
+
+  http://www.mdpi.com/1999-4893/8/3/459/s1 
+  under Creative Commons Attribution 4.0 (CC BY 4.0):
+  http://creativecommons.org/licenses/by/4.0/
+  Changes were made to the source code.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
