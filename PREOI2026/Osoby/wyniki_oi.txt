@@ -1,0 +1,585 @@
+1	Tomasz	Cieślak	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100	100	100	100	100	800
+2	Maciej	Daczyński	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	100	100	100	100	100	100	800
+3	Wojciech	Dworaczyk	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100	100	100	100	100	800
+4	Tymon	Fronc	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	100	100	100	100	100	100	800
+5	Szymon	Karcz	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	100	100	100	100	100	100	100	800
+6	Dawid	Kot	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	100	100	100	100	100	100	100	800
+7	Marcin	Krysiak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	100	800
+8	Filip	Lizak	Publiczne Liceum Ogólnokształcące Politechniki Łódzkiej	Łódź	łódzkie	100	100	100	100	100	100	100	100	800
+9	Daria	Lobas	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	100	100	100	100	100	100	800
+10	Michał Olgierd	Masny	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	100	800
+11	Witold Józef	Milewski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	100	100	100	100	100	100	800
+12	Antoni Jan	Nowak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	100	800
+13	Aliaksei	Pauliuchenka	II Liceum Ogólnokształcące im. Księżnej Anny z Sapiehów Jabłonowskiej	Białystok	podlaskie	100	100	100	100	100	100	100	100	800
+14	Mateusz	Pietrowcow	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	100	100	100	100	100	100	800
+15	Szymon	Plura	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	100	100	100	100	100	100	800
+16	Antoni	Szewczyk	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100	100	100	100	100	800
+17	Michał Piotr	Wolny	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	100	800
+18	Jakub Maciej	Żyto	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	100	800
+19	Paweł	Bielecki	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	100	100	95	100	100	100	100	100	795
+20	Wiktor	Borek	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	94	100	100	100	100	100	794
+21	Wojciech	Ogrodnik	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100	100	100	100	100	794
+22	Michał Adam	Roguz	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	94	100	100	100	100	100	794
+23	Mateusz	Jurach	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	94	100	98	100	100	100	792
+24	Mateusz	Wlodarczyk	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	92	100	100	100	100	100	792
+25	Łukasz	Ganczarek	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	90	100	100	100	100	100	790
+26	Patryk	Grabowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	100	100	100	100	100	790
+27	Dawid	Halat	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	100	100	100	100	100	790
+28	Aleksandra	Żyniewicz	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	90	100	100	100	100	100	790
+29	Mateusz	Kowalski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	88	100	100	100	100	100	788
+30	Adam	Szymaszkiewicz	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	86	100	100	100	100	100	100	100	786
+31	Mikołaj	Kazimierczak	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	85	100	100	100	100	100	785
+32	Michał	Śmietana	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	100	100	84	100	100	100	100	100	784
+33	Jakub	Jastrzębski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	81	100	100	100	100	100	781
+34	Jakub Marcin	Kussowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	81	100	100	100	100	100	781
+35	Adam	Dubrowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	100	100	100	100	780
+36	Mateusz	Nowopolski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	100	100	100	100	100	780
+37	Nicolas	Wochnik	Technikum nr 6 w Zespole Szkół Technicznych	Bytom	śląskie	100	100	80	100	100	100	100	100	780
+38	Mateusz	Wołoszyk	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	100	100	100	100	100	780
+39	Mikołaj Piotr	Żuber	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	80	100	100	100	100	100	780
+40	Stanisław	Badziak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	74	100	100	100	774
+41	Mikołaj	Krzeszowiak	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	100	100	100	74	100	100	100	774
+42	Krystian	Szumlas	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	100	100	74	100	100	100	774
+43	Franciszek	Zachuta	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100	74	100	100	100	774
+44	Maciej	Mączka	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	83	100	90	100	100	100	100	100	773
+45	Aleksander	Chmielowiec	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	67	100	100	100	767
+46	Albert	Siekanski	I Liceum Ogólnokształcące im. Bolesława Chrobrego	Piotrków Trybunalski	łódzkie	100	100	100	100	67	100	100	100	767
+47	Maciej	Wandas	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100	67	100	100	100	767
+48	Mikolaj	Tofiluk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	92	100	74	100	100	100	766
+49	Jakub	Wasilewski	VIII Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Marii Skłodowskiej-Curie	Katowice	śląskie	100	100	100	82	83	100	100	100	765
+50	Filip	Pawicki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	61	100	100	100	761
+51	Tymon	Tłuczek	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	98	100	100	100	61	100	100	100	759
+52	Szymon	Urban	Technikum Nowoczesnych Technologii im. Jana Pawła II	Kleszczów	łódzkie	100	100	94	82	74	100	100	100	750
+53	Stanisław	Batko	Publiczne Liceum Ogólnokształcące Zakonu Pijarów	Elbląg	warmińsko-mazurskie	88	100	94	100	67	100	100	100	749
+54	Michał	Stańczyk	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	100	100	49	100	100	100	100	749
+55	Piotr	Dybich	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	64	84	100	100	100	100	100	748
+56	Jakub	Woźniak	Liceum Ogólnokształcące TEB Edukacja	Świdnica	dolnośląskie	100	64	81	100	100	100	100	100	745
+57	Bartosz	Olizarowski	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	96	100	90	100	58	100	100	100	744
+58	Bartłomiej	Gałczyk	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	49	100	94	100	100	100	100	100	743
+59	Ewa	Paliga	Dwujęzyczne Liceum Uniwersyteckie im. Stanisława Barańczaka	Rzeszów	podkarpackie	100	100	100	100	42	100	100	100	742
+60	Igor	Pietrewicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	51	85	100	100	100	100	100	736
+61	Paweł	Witkowski	Technikum Elektroniczne nr 7 im. Wojska Polskiego	Bydgoszcz	kujawsko-pomorskie	100	100	84	49	100	100	100	100	733
+62	Tymon	Durlej	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	94	100	34	100	100	100	728
+63	Mikołaj	Kulas	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	88	64	100	100	74	100	100	100	726
+64	Jakub	Dębowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	100	100	22	100	100	100	722
+65	Julia	Juras	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	100	100	22	100	100	100	722
+66	Kacper	Mróz	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	100	100	22	100	100	100	722
+67	Mateusz	Śmietanko	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	22	100	100	100	722
+68	Adam	Bogdanowicz	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	84	100	34	100	100	100	718
+69	Jan	Koperek	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	84	100	34	100	100	100	718
+70	Wiktor	Marczak	IV Liceum Ogólnokształcące im. rtm. Witolda Pileckiego	Piaseczno	mazowieckie	100	100	84	100	34	100	100	100	718
+71	Leon	Ujma	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	84	100	34	100	100	100	718
+72	Krzysztof	Gorączko	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	100	100	92	100	25	100	100	100	717
+73	Józef	Klata	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	92	100	25	100	100	100	717
+74	Krzysztof	Ładniak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	17	100	100	100	100	100	717
+75	Mateusz	Wilgosz	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	92	100	25	100	100	100	717
+76	Paweł	Czajkowski	II Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego	Konin	wielkopolskie	100	100	94	100	22	100	100	100	716
+77	Patryk	Foremny	Publiczne Akademickie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi	Rzeszów	podkarpackie	100	100	94	100	22	100	100	100	716
+78	Tymoteusz	Szymański	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	16	100	100	100	716
+79	Oliwier	Śledziński-Bąbol	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	94	100	22	100	100	100	716
+80	Szymon	Walos	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	94	100	22	100	100	100	716
+81	Michał	Zegar	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100	22	100	100	100	716
+82	Tymoteusz	Kozieł	Technikum nr 4 im. Ryszarda Kaczorowskiego	Kielce	świętokrzyskie	100	100	90	100	25	100	100	100	715
+83	Michał	Mróz	I Liceum Ogólnokształcące im. Bartłomieja Nowodworskiego	Kraków	małopolskie	100	100	81	100	34	100	100	100	715
+84	Mikołaj	Szczerbetka	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	34	100	100	100	714
+85	Wojciech	Jankowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	95	100	18	100	100	100	713
+86	Jan	Juszczyk	I Liceum w Chmurze	Warszawa	mazowieckie	100	100	92	100	21	100	100	100	713
+87	Robert	Rosczak	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	100	100	13	100	100	100	713
+88	Kacper	Wojtkielewicz	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	84	100	29	100	100	100	713
+89	Jan	Kosiorowski	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	94	100	18	100	100	100	712
+90	Sebastian Dominik	Paszkowski	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	90	100	22	100	100	100	712
+91	Aleksander	Pietkiewicz	IV Liceum Ogólnokształcące im. Tadeusza Kościuszki	Toruń	kujawsko-pomorskie	100	100	90	100	22	100	100	100	712
+92	Mateusz	Filipowicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100	16	100	100	100	710
+93	Daniel	Giacobelli	XXVII Liceum Ogólnokształcące im. Tadeusza Czackiego	Warszawa	mazowieckie	100	100	92	100	18	100	100	100	710
+94	Adam	Zych	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	92	100	18	100	100	100	710
+95	Bartosz	Malinowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	97	22	100	100	100	709
+96	Konrad	Kaźmierczak	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	92	100	16	100	100	100	708
+97	Rafał	Koba	Niepubliczne Liceum Ogólnokształcące Szkoła Bez Granic	Świnoujście	zachodniopomorskie	100	100	86	100	22	100	100	100	708
+98	Wojciech	Machel	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	47	100	100	61	100	100	100	708
+99	Antoni	Różański-Putek	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	86	100	22	100	100	100	708
+100	Szymon	Sznajdrowski	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	100	100	92	100	16	100	100	100	708
+101	Albert	Szymczak	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	86	100	22	100	100	100	708
+102	Krzysztof	Kaszycki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	84	100	22	100	100	100	706
+103	Aleksander	Olszewski	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	84	100	22	100	100	100	706
+104	Piotr	Komisarski	Technikum nr 10 w Zespole Szkół Elektroniczno-Informatycznych im. Jana Szczepanika	Łódź	łódzkie	100	100	95	100	10	100	100	100	705
+105	Michał	Bartkiewicz	IV Liceum Ogólnokształcące im. Tadeusza Kościuszki	Toruń	kujawsko-pomorskie	100	100	100	100	4	100	100	100	704
+106	Danylo	Pashuk	II Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stefana Batorego	Warszawa	mazowieckie	100	100	82	100	22	100	100	100	704
+107	Jan	Pydych	Szkoła Podstawowa z Oddziałami Integracyjnymi nr 151 im. Uniwersytetu Jagiellońskiego	Kraków	małopolskie	100	100	100	100	4	100	100	100	704
+108	Jan	Stachowiak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	4	100	100	100	704
+109	Bartosz	Bartodziej	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	100	22	100	100	100	703
+110	Kalina	Staszewska	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	100	22	100	100	100	703
+111	Patrycja	Czerwińska	Liceum Ogólnokształcące im. Marszałka Stanisława Małachowskiego	Płock	mazowieckie	100	100	84	100	18	100	100	100	702
+112	Filip	Dawidziuk	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	94	100	8	100	100	100	702
+113	Jan	Lesiak	IV Liceum Ogólnokształcące im. rtm. Witolda Pileckiego	Piaseczno	mazowieckie	100	100	100	67	35	100	100	100	702
+114	Danylo	Lifyentsyev	I Liceum Ogólnokształcące im. Stefana Żeromskiego	Jelenia Góra	dolnośląskie	100	100	80	100	22	100	100	100	702
+115	Patryk	Niemczyk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	22	100	100	100	702
+116	Piotr	Sienkiewicz	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	80	100	22	100	100	100	702
+117	Franciszek	Skut	II Liceum Ogólnokształcące im. Romualda Traugutta	Częstochowa	śląskie	100	100	80	100	22	100	100	100	702
+118	Szymon	Sokołowski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	94	100	8	100	100	100	702
+119	Mikołaj	Żelawski	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80	100	22	100	100	100	702
+120	Karol	Bednorz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100	100	100	100	0	700
+121	Daniel	Bereza	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100		100	100	100	700
+122	Michał Paweł	Bublewicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100		100	100	100	700
+123	Paweł	Deorowicz	I Liceum Ogólnokształcące im. prof. Zbigniewa Religi	Zabrze	śląskie	100	100	100	100		100	100	100	700
+124	Mateusz	Janik	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100		100	100	100	700
+125	Stanisław	Kozłowski	II Liceum Ogólnokształcące im. Księżnej Anny z Sapiehów Jabłonowskiej	Białystok	podlaskie	100	100	100	100		100	100	100	700
+126	Mikołaj	Małysz	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	82	100	18	100	100	100	700
+127	Maksymilian	Sawicki	XXVII Liceum Ogólnokształcące im. Tadeusza Czackiego	Warszawa	mazowieckie	100	100	100	100		100	100	100	700
+128	Artur	Smoleński	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	100		100	100	100	700
+129	Stanisław	Sowa	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100	100		100	100	100	700
+130	Joachim	Kołodziejski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	100	9	100	100	100	699
+131	Antoni	Pusz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	86	100	13	100	100	100	699
+132	Eryk	Śliwa	Technikum nr 6 w Zespole Szkół Elektronicznych	Rzeszów	podkarpackie	100	100	81	100	18	100	100	100	699
+133	Maciej	Dawidziuk	Liceum Ogólnokształcące	Siemiatycze	podlaskie	100	100	80	100	18	100	100	100	698
+134	Jan	Kozubal	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	94	100	4	100	100	100	698
+135	Jan	Latkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	18	100	100	100	698
+136	Olaf	Marek	Technikum nr 5 w Technicznych Zakładach Naukowych im. gen. Wł. Sikorskiego	Częstochowa	śląskie	100	100	80	100	18	100	100	100	698
+137	Magdalena	Pawicka	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100	18	100	100	100	698
+138	Jakub	Preis	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	80	100	18	100	100	100	698
+139	Oliwier	Wiśniewski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	100	18	100	100	100	698
+140	Wojciech	Grupa	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	100	49	48	100	100	100	697
+141	Tymoteusz	Lorenowicz	I Liceum Ogólnokształcące im. ks. Stanisława Konarskiego	Rzeszów	podkarpackie	100	100	80	100	17	100	100	100	697
+142	Bartosz	Szczerbiński	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	81	100	16	100	100	100	697
+143	Mateusz	Grygiel	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	85	100	11	100	100	100	696
+144	Jan	Jurkowski	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	92	100	4	100	100	100	696
+145	Artur	Nowak	Technikum nr 4 w Zespole Szkół nr 6 im. Króla Jana III Sobieskiego	Jastrzębie-Zdrój	śląskie	100	100	80	100	16	100	100	100	696
+146	Weronika	Rzewuska	XVIII Liceum Ogólnokształcące im. Jana Zamoyskiego	Warszawa	mazowieckie	100	100	92	100	4	100	100	100	696
+147	Filip	Bąk	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	100	100	94	0	100	100	100	100	694
+148	Piotr	Guziński	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	86	100	8	100	100	100	694
+149	Marcel	Kalużny	Technikum nr 10 w Zespole Szkół Elektroniczno-Informatycznych im. Jana Szczepanika	Łódź	łódzkie	100	100	94	100		100	100	100	694
+150	Jeremi	Konefał	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	81	100	13	100	100	100	694
+151	Maciej	Kuczyński	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	94	100		100	100	100	694
+152	Franciszek Jan	Kurlej	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	94	100		100	100	100	694
+153	Stanisław	Lada	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100		100	100	100	694
+154	Kyryl	Leksiunin	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	94	100		100	100	100	694
+155	Mateusz	Mieszkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100		100	100	100	694
+156	Modest	Skrzetuski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	94	100		100	100	100	694
+157	Kamil	Szmurło	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	94	100		100	100	100	694
+158	Bartosz	Trawiński	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	90	100	4	100	100	100	694
+159	Wojciech	Zwoliński	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	94	100		100	100	100	694
+160	kacper	chrzanowski	III Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego	Białystok	podlaskie	100	100	80	100	13	100	100	100	693
+161	Jan	Kraszewski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	13	100	100	100	693
+162	Piotr	Statkiewicz	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100	13	100	100	100	693
+163	Mateusz	Klimek	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	100	100	92	100		100	100	100	692
+164	Michał Tomasz	Kurpiewski	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	92	100		100	100	100	692
+165	Jan	Myszka	Społeczne Liceum Ogólnokształcące Autorska Szkoła Samorozwoju ASSA	Wrocław	dolnośląskie	100	100	92	100		100	100	100	692
+166	Krzysztof Tomasz	Witkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	92	100		100	100	100	692
+167	Gabriela	Bujacz	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	91	100		100	100	100	691
+168	Maksymilian	Kozicki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	97	100	90	100	4	100	100	100	691
+169	Paweł	Łata	Technikum nr 4 im. Ryszarda Kaczorowskiego	Kielce	świętokrzyskie	100	100	73	100	18	100	100	100	691
+170	Konrad	Siciński	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	87	100	4	100	100	100	691
+171	Kirill	Volchenko	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	91	100		100	100	100	691
+172	Mikołaj	Ziewacz	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	91	100		100	100	100	691
+173	Tomasz	Kicek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	100		100	100	100	690
+174	Krzysztof	Lizak	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	88	100	2	100	100	100	690
+175	Samuel	Maj	Prywatne Liceum Ogólnokształcące im. Zofii i Jędrzeja Moraczewskich	Warszawa	mazowieckie	100	100	90	100		100	100	100	690
+176	Milena	Bagińska	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	85	100	4	100	100	100	689
+177	Miłosz	Wilk	III Liceum Ogólnokształcące im. Adama Mickiewicza	Katowice	śląskie	80	100	80	100	28	100	100	100	688
+178	Mikołaj	Źrałek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90	55	43	100	100	100	688
+179	Mikołaj	Kiljański	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	87	100		100	100	100	687
+180	Wojciech	Wojak	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	83	82	22	100	100	100	687
+181	Tomasz	Kuczko	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	100	86	100		100	100	100	686
+182	Stanisław	Łatuszko	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	86	100	0	100	100	100	686
+183	Szymon	Pilipczuk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100	82	4	100	100	100	686
+184	Bartłomiej	Borowski	Publiczne Salezjańskie Liceum Ogólnokształcące	Kraków	małopolskie	100	100	85	100		100	100	100	685
+185	Wiktor	Gatner	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	72	100	13	100	100	100	685
+186	Filip	Klim	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	100	4	100	100	100	685
+187	Krzysztof	Kowalik	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	100	4	100	100	100	685
+188	Damian	Kruglicz	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	100	100	85	100	100	0	685
+189	Tomasz	Kuraczyk	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	81	100	4	100	100	100	685
+190	Ryszard	Augustyn	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100	4	100	100	100	684
+191	Dominik	Dereń	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	100	12	72	100	100	100	684
+192	Łukasz	Fac	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	84	100		100	100	100	684
+193	Oskar	Gerula	Publiczne Akademickie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi	Rzeszów	podkarpackie	100	100	84	100		100	100	100	684
+194	Oleksii	Goncharuk	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100	4	100	100	100	684
+195	Jakub	Gryz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	4	100	100	100	684
+196	Maja	Hryń	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	84	100		100	100	100	684
+197	Szymon Czesław	Krzywda	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100	4	100	100	100	684
+198	Mikołaj	Moskot	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	100	4	100	100	100	684
+199	Anna	Pilipczuk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	4	100	100	100	684
+200	Paweł	Szarata	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	4	100	100	100	684
+201	Stanisław	Turkowski	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	84	100	0	100	100	100	684
+202	Miłosz	Zakrzewski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	4	100	100	100	684
+203	Aleksander	Zawłocki	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	80	100	4	100	100	100	684
+204	Jakub	Bareja	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	79	100	4	100	100	100	683
+205	Błażej	Grodzicki	Szkoła Podstawowa nr 3 im. Mariusza Zaruskiego	Wrocław	dolnośląskie	100	60	94	29	100	100	100	100	683
+206	Kacper	Odzimek	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	100	83	100		100	100	100	683
+207	Oskar	Skoczylas	II Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. A.F. Modrzewskiego	Rybnik	śląskie	100	100	81	100	2	100	100	100	683
+208	Juliusz	Klim	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	98	100	84	100		100	100	100	682
+209	Filip	Szczygielski	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	100	80	100	2	100	100	100	682
+210	Antoni	Gacek	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	81	100		100	100	100	681
+211	Adam	Kudelski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	56	100	25	100	100	100	681
+212	Grzegorz	Martyna	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	81	100		100	100	100	681
+213	Zachary	Radzik	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	81	100		100	100	100	681
+214	Tobiasz	Szymański	Szkoła Podstawowa nr 8 im. Józefa Piłsudskiego	Wrocław	dolnośląskie	100	100	81	100		100	100	100	681
+215	Franciszek	Szymula	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	81	100		100	100	100	681
+216	Mikołaj	Aleksandrowicz	IV Liceum Ogólnokształcące im. rtm. Witolda Pileckiego	Piaseczno	mazowieckie	100	100	80	100		100	100	100	680
+217	Alex	Basałaj	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+218	Karol	Chrzanowski	VIII Liceum Ogólnokształcące im. Króla Kazimierza Wielkiego	Białystok	podlaskie	100	100	80	100		100	100	100	680
+219	Dominik	Cup	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	80	100		100	100	100	680
+220	Jakub	Dańko	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80	100		100	100	100	680
+221	Tomek	Dawidowski	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	80	100	0	100	100	100	680
+222	Kinga	Deptuła	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+223	Tymon	Drop	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+224	Jan	Gregorczuk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+225	Kamil	Janik	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	80	100		100	100	100	680
+226	Wiktor	Jokiel	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+227	Aleksander	Kaliciak	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	100	80	100		100	100	100	680
+228	Tomasz	Kośnikowski	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+229	Szymon	Kozłowski	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	80	100		100	100	100	680
+230	Stanisław	Kycia	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+231	Wiktor	Lindner	XVIII Liceum Ogólnokształcące im. Jana Zamoyskiego	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+232	Max	Makówka	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80	100		100	100	100	680
+233	Jeremi	Michałowicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+234	Natalia	Mietelska	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+235	Jakub	Mścichowski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Grajewo	podlaskie	100	100	80	100		100	100	100	680
+236	Julia	Nowakowska	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+237	Volodymyr	Osaulenko	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+238	Miłosz	Piekot	Akademickie Liceum Ogólnokształcące Politechniki Wrocławskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+239	Aleksander	Porębny	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+240	Zofia	Rojecka-Ulanicka	I Liceum Ogólnokształcące im. Rodu Leszczyńskich	Leszno	wielkopolskie	100	100	80	100		100	100	100	680
+241	Krzysztof	Rojek	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	80	100		100	100	100	680
+242	Artur	Rutkowski	LXX Liceum Ogólnokształcące im. Aleksandra Kamińskiego	Warszawa	mazowieckie	100	100	80	100		100	100	100	680
+243	Hubert	Rybak	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	100		100	100	100	680
+244	Mikołaj	Satora	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80	100		100	100	100	680
+245	Damian	Sowiński	Technikum nr 4 im. Ryszarda Kaczorowskiego	Kielce	świętokrzyskie	100	100	80	100	0	100	100	100	680
+246	Michał	Stanczewski	Liceum Ogólnokształcące im. Marszałka Stanisława Małachowskiego	Płock	mazowieckie	100	100	80	100		100	100	100	680
+247	Adam	Stanoch	Technikum nr 2 w Zespole Szkół nr 2	Dębica	podkarpackie	100	100	80	100		100	100	100	680
+248	Aleksander	Ścisło	Szkoła Podstawowa Integracyjna nr 11 im. Bohaterów Warszawy	Kielce	świętokrzyskie	100	100	80	100		100	100	100	680
+249	Maja	Wieczorek	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	95	100	85	100		100	100	100	680
+250	Maciej	Mokrzycki	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	81	80	100	17	100	100	100	678
+251	Robert	Borowski	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	77	100		100	100	100	677
+252	Paweł	Kruszec	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	94	49	34	100	100	100	677
+253	Łukasz	Smyk	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	77	100		100	100	100	677
+254	Jakub	Świcarz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	95	82		100	100	100	677
+255	Maciej	Boroń	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	94	82		100	100	100	676
+256	Piotr Dominik	Grądziel	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	76	100	0	100	100	100	676
+257	Bartosz	Załęski	I Liceum Ogólnokształcące im. Stanisława Wyspiańskiego	Mława	mazowieckie	100	64	91	100	34	100	99	87	675
+258	Jakub	Goleniewski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	70	100	4	100	100	100	674
+259	Jakub	Małecki	Publiczne Liceum Ogólnokształcące nr II z Oddziałami Dwujęzycznymi im. Marii Konopnickiej	Opole	opolskie	100	71	80	100	22	100	100	100	673
+260	Mateusz	Papiernik	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	73	100		100	100	100	673
+261	Tomasz	Uram	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	32	60	81	100	100	100	100	100	673
+262	Adam	Wrotniewski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Toruń	kujawsko-pomorskie	100	64	90	100	18	100	100	100	672
+263	Krzysztof	Noworyta	II Liceum Ogólnokształcące im. Jana Śniadeckiego	Kielce	świętokrzyskie	100	64	84	100	22	100	100	100	670
+264	Jan	Wyszkowski	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	90	100	80	100		100	100	100	670
+265	Eliasz	Miczejko	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	89	100	80	100		100	100	100	669
+266	Antoni	Rackiewicz	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	89	80	100		100	100	100	669
+267	Tomasz	Żmuda	Technikum nr 4 im. Tadeusza Tertila w Zespole Szkół Mechaniczno-Elektrycznych	Tarnów	małopolskie	49	100	94	100	25	100	100	100	668
+268	Mateusz	Cichosz	Technikum nr 13 w Zespole Szkół Energetycznych	Gdańsk	pomorskie	100	100	81	82	4	100	100	100	667
+269	Igor	Popowski	Akademickie Liceum Ogólnokształcące Politechniki Śląskiej	Gliwice	śląskie	100	100	84	82		100	100	100	666
+270	Hugo	Stefaniak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	84	82		100	100	100	666
+271	Szymon	Jarosz	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	100	100	100	22	100	42	100	664
+272	Franciszek	Kycia	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	85	100	80	94	4	100	100	100	663
+273	Piotr	Szaruga	Akademickie Liceum Ogólnokształcące Politechniki Śląskiej	Gliwice	śląskie	100	100	81	82		100	100	100	663
+274	Fabian	Osuch	Technikum nr 3 w Zespole Szkół nr 4	Tychy	śląskie	100	100	53	100	9	100	100	100	662
+275	Konrad	Chrząszczak	Technikum nr 17 w Śląskich Technicznych Zakładach Naukowych	Katowice	śląskie	49	64	81	100	67	100	100	100	661
+276	Jakub	Świtoń	Technikum Informatyczne Szczecińskiego Collegium Informatycznego	Szczecin	zachodniopomorskie	100	100	100	61		100	100	100	661
+277	Karol	Żeleźnik	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	27	84	100	50	100	100	100	661
+278	Marcel	Muzyczuk	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	54	100	4	100	100	100	658
+279	Joanna	Szafraniec	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	56	100	2	100	100	100	658
+280	Filip	Piwko	European School Brussels I	Uccle	zagranica	100	100	56	100		100	100	100	656
+281	Kyryl	Garbuza	Liceum Akademeia High School	Warszawa	mazowieckie	100	100	81		72	100	100	100	653
+282	Antoni	Lizak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	53	100		100	100	100	653
+283	Antoni	Radek	LXIII Liceum Ogólnokształcące im. Lajosa Kossutha	Warszawa	mazowieckie	100	100	53	100		100	100	100	653
+284	Michał	Tarnowski	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	51	100		100	100	100	651
+285	Kacper	Górski	Społeczne Liceum Ogólnokształcące nr 4 imienia Batalionu AK Parasol	Warszawa	mazowieckie	100	51	76	100	22	100	100	100	649
+286	Konstanty	Opas	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	87	100	80	82		100	100	100	649
+287	Szymon	Szymański	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	49	100		100	100	100	649
+288	Jan	Obczyński	Liceum Ogólnokształcące im. Marszałka Stanisława Małachowskiego	Płock	mazowieckie	86	100	80	82		100	100	100	648
+289	Szymon	Turkiewicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	64	80	100	4	100	100	100	648
+290	Igor	Augustyniak	Publiczne Liceum Ogólnokształcące Politechniki Łódzkiej	Łódź	łódzkie	49	100	80	17	100	100	100	100	646
+291	Łukasz	Grabowski	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	64	81	100		100	100	100	645
+292	Maciej	Hojnowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	61	4	100	100	100	645
+293	Aleksander	Madejski	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	100	100	80	47	18	100	100	100	645
+294	Rafał	Mateja	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	45	100	100		100	100	100	645
+295	Zuzanna	Czubińska	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	44	100		100	100	100	644
+296	Mark	Kucher	Liceum Ogólnokształcące im. Tadeusza Kościuszki	Pruszków	mazowieckie	100	64	80	100	0	100	100	100	644
+297	Emil	Makal	Publiczne Liceum Ogólnokształcące Politechniki Łódzkiej	Łódź	łódzkie	100	93	100	29	22	100	100	100	644
+298	Stanisław	Truszel	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	44	100		100	100	100	644
+299	Igor	Krzyżanowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	64	75	100	4	100	100	100	643
+300	Szymon	Bamberski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	43	80	100	18	100	100	100	641
+301	Bruno	Niklasiewicz	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	49	100	90	100		100	100	100	639
+302	Szymon	Skowron	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	47	87	100	4	100	100	100	638
+303	Wojciech	Zapiec	IX Liceum Ogólnokształcące im. Klementyny Hoffmanowej	Warszawa	mazowieckie	100	100	84	52	2	100	100	100	638
+304	Jakub	Bobiński	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	100	100	84	49	4	100	100	100	637
+305	Leon	Mańkowski	Liceum Ogólnokształcące im. Wojska Polskiego	Nowy Dwór Mazowiecki	mazowieckie	66	100	80	87	4	100	100	100	637
+306	Weronika	Bala	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	92	100	94	49		100	100	100	635
+307	Jakub	Gancarz	I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Mikołaja Kopernika	Krosno	podkarpackie	100	27	80	100	26	100	100	100	633
+308	Marek	Kazimierczak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	49	4	100	100	100	633
+309	Krzysztof	Lipiński	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	84	82	22	100	100	44	632
+310	Paulina	Glazik	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	29	22	100	100	100	631
+311	Antoni	Porębski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	27	100	100	4	100	100	100	631
+312	Zbigniew	Gul	II Liceum Ogólnokształcące im. Hugona Kołłątaja	Wałbrzych	dolnośląskie	49	100	81	100		100	100	100	630
+313	Iwo	Potoniec	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	81	49		100	100	100	630
+314	Paweł	Sima	I Liceum Ogólnokształcące im. Bolesława Chrobrego	Piotrków Trybunalski	łódzkie	100	100	81	49		100	100	100	630
+315	Sylwia	Mentel	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	100	29		100	100	100	629
+316	Zuzanna	Nagórko	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	72	100		100	100	57	629
+317	An Son	Nguyen	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	49		100	100	100	629
+318	Maciej	Parol	Prywatne Liceum Ogólnokształcące im. Zofii i Jędrzeja Moraczewskich	Warszawa	mazowieckie	100	100	81	29	18	100	100	100	628
+319	Filip	Muszytowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	64	80	82		100	100	100	626
+320	Jan	Świslowski	III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Bohaterów Westerplatte	Gdańsk	pomorskie	100	100	72	49	4	100	100	100	625
+321	Hubert	Lichorobiec	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	98	100	81	29	15	100	100	100	623
+322	Jakub	Biekionis	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	36	100	84	100		100	100	100	620
+323	Franciszek	Czaplewski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	16	100	4	100	100	100	620
+324	Filip	Jaszczura	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	78	59	82		100	100	100	619
+325	Samuel	Juszkiewicz	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	25	100	86	100	8	100	100	100	619
+326	Anna	Oueiski	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	92	14	13	100	100	100	619
+327	Karol	Bednarz	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	67	49		100	100	100	616
+328	Weronika	Wąsowska	V Liceum Ogólnokształcące im. ks. Józefa Poniatowskiego	Warszawa	mazowieckie	49	71	80	100	16	100	100	100	616
+329	Piotr	Melon	I Liceum Ogólnokształcące im. św. Barbary	Chodzież	wielkopolskie	100	100	80	17	18	100	100	100	615
+330	Maksymilian	Czyżewski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	29	4	100	100	100	614
+331	Patrycja	Pisanko	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	100	100	81	29	4	100	100	100	614
+332	Mateusz	Dziewulski	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	84	100	80	49		100	100	100	613
+333	Piotr	Jasiukiewicz	Liceum Ogólnokształcące nr VI im. Bolesława Prusa	Wrocław	dolnośląskie	100	100	64	49		100	100	100	613
+334	Dominik	Ludwin	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	80	17	16	100	100	100	613
+335	Antoni	Mazur	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	90		22	100	100	100	612
+336	Mateusz	Soszyński	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	15	81	100	16	100	100	100	612
+337	Bartosz	Brutt	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	27	84	100		100	100	100	611
+338	Bartłomiej	Dygas	Technikum nr 5 im. Zesłańców Sybiru w Zespole Szkół i Placówek Kształcenia Zawodowego	Zielona Góra	lubuskie	100	100	81	29	0	100	100	100	610
+339	Maksim	Kailiak	XXXIII Liceum Ogólnokształcące Dwujęzyczne im. Mikołaja Kopernika	Warszawa	mazowieckie	100	100	81	29		100	100	100	610
+340	Michał	Mieszek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	29		100	100	100	610
+341	Michał	Opar	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	29		100	100	100	610
+342	Michał	Dziedzic	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	64	80	12	53	100	100	100	609
+343	Wojciech	Klich	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	29		100	100	100	609
+344	Yaroslav	Kolot	Technikum nr 10 im. Fryderyka Joliot-Curie	Wrocław	dolnośląskie	100	100	81	12	16	100	100	100	609
+345	Jan	Ścibielski	I Liceum Ogólnokształcące im. Marcina Wadowity	Wadowice	małopolskie	100	100	80	29		100	100	100	609
+346	Karol	Matyka	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	84	12	12	100	100	100	608
+347	Miłosz	Plocki	II Liceum Ogólnokształcące im. Bolesława Chrobrego	Sopot	pomorskie	100	100	51	100		100	100	57	608
+348	Kacper	Ziemecki	I Liceum Ogólnokształcące im. Tadeusza Kościuszki	Gorzów Wielkopolski	lubuskie	85	100	94	29		100	100	100	608
+349	Marcelina	Domin	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	100	91	100	15	100	100	0	606
+350	Maksymilian	Klepek	II Liceum Ogólnokształcące im. Hugona Kołłątaja	Wałbrzych	dolnośląskie	94	100	51	61		100	100	100	606
+351	Mikołaj	Szadkowski	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	0	84	100	22	100	100	100	606
+352	Filip	Kubiaczyk	I Liceum Ogólnokształcące im. Tadeusza Kościuszki	Wieluń	łódzkie	100	27	80	82	16	100	100	100	605
+353	Marcin	Błaszczyk	I Liceum Ogólnokształcące im. Edwarda Dembowskiego	Zielona Góra	lubuskie	100	100	92	12	0	100	100	100	604
+354	Marek	Grabarski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	100		4	100	100	100	604
+355	Nela	Misan	V Liceum Ogólnokształcące im. Zbigniewa Herberta	Słupsk	pomorskie	49	55	92	100	8	100	100	100	604
+356	Miłosz	Popowicz	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	92	12	0	100	100	100	604
+357	Witold	Swacha	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	80	100	11	100	100	100	604
+358	Przemysław	Kamiński	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	83	64	80	100	22	100	54	100	603
+359	Borys	Wawrzynów	IV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stanisława Staszica	Sosnowiec	śląskie	100	100	81		22	100	100	100	603
+360	Jan	Mularczyk	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	100	0	80	100	22	100	100	100	602
+361	Adam	Wystrychowski	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	100	80	0	22	100	100	100	602
+362	Bartosz	Zapała	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie		100	84	100	18	100	100	100	602
+363	Maksymilian	Kuś	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	98	100	92		11	100	100	100	601
+364	Michał	Oprocha	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	81	12	8	100	100	100	601
+365	Piotr	Sztencel	Technikum im. Bohaterów Westerplatte	Radom	mazowieckie	100	100	80	17	4	100	100	100	601
+366	Jakub	Popławski	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	0	100	84	100	16	100	100	100	600
+367	Grzegorz	Tabor	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	81	100	6	100	100	100	600
+368	Marek	Wałęga	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	100			100	100	100	600
+369	Wojciech	Drozd	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	73	26		100	100	100	599
+370	Krzysztof	Marszewski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	87	12		100	100	100	599
+371	Dominik	Findeisen	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	18	80	100		100	100	100	598
+372	Filip	Ksel	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	17		100	100	100	598
+373	Jan	Zachar	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	18	80	100	0	100	100	100	598
+374	Mateusz	Madejczyk	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	80	17		100	100	100	597
+375	Mateusz	Sejdor	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	80	17		100	100	100	597
+376	Brajan	Cieloch	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	100	100	53	29	13	100	100	100	595
+377	Szymon	Gross	V Liceum Ogólnokształcące im. Stefana Żeromskiego	Gdańsk	pomorskie	13	100	80	100	2	100	100	100	595
+378	Tymofii	Hamaliia	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	14		100	100	100	594
+379	Piotr	Kapustka	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	94	100	0	100	100	0	594
+380	Cyprian	Biesaga	Chrześcijańskie Autorskie Liceum Ogólnokształcące	Gdańsk	pomorskie	13	100	80	100		100	100	100	593
+381	Karol	Minodzki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	12		100	100	100	593
+382	Julian	Stepien	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	81	12		100	100	100	593
+383	Mateusz	Knapik	V Liceum Ogólnokształcące	Bielsko-Biała	śląskie	100	100	80	12		100	100	100	592
+384	Paweł	Biernacki	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	90	100		100	100	0	590
+385	Jan	Drabikowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	90			100	100	100	590
+386	Michał	Englart	Akademickie Liceum Ogólnokształcące Politechniki Wrocławskiej	Wrocław	dolnośląskie	100	27	48	100	16	100	99	100	590
+387	Antoni	Glinka	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	27	80	82		100	100	100	589
+388	Ewelina	Lala	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	32	100	56	100		100	100	100	588
+389	Adrian	Sudziński	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	64	24	100		100	100	100	588
+390	Julian	Wasylkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	64	24	100		100	100	100	588
+391	Grzegorz	Mikulski	XXI Liceum Ogólnokształcące im. Hugona Kołłątaja	Warszawa	mazowieckie	93	100	94			100	100	100	587
+392	Maciej	Szostakiewicz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	75	12		100	100	100	587
+393	Bartosz	Jażdżyk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81		4	100	100	100	585
+394	Jagoda	Łata	I Liceum Ogólnokształcące Dwujęzyczne im. Mikołaja Kopernika	Kołobrzeg	zachodniopomorskie	100	100	81	100	4	100	100	0	585
+395	Joanna	Potempa	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	81	0	4	100	100	100	585
+396	Michał	Kozłowski	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	84		0	100	100	100	584
+397	Jakub	Zagordzki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80		4	100	100	100	584
+398	Jakub	Zaremba	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	100	100	71	12	0	100	100	100	583
+399	Andrzej	Grzegdala	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	49	100	80	49	4	100	100	100	582
+400	Wojciech	Hewelt	XVIII Liceum Ogólnokształcące im. Jana Zamoyskiego	Warszawa	mazowieckie	100	100	53	29		100	100	100	582
+401	Mateusz	Mazurowski	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Gdańsk	pomorskie	100	64	18	100		100	100	100	582
+402	Wojciech	Kowalczewski	I Liceum Ogólnokształcące imienia Floriana Ceynowy	Świecie	kujawsko-pomorskie	100	100	64	17		100	100	100	581
+403	Rafał	Sobolewski	Szkoła Podstawowa nr 18 im. Arkadego Fiedlera	Zielona Góra	lubuskie	13	27	100	100	41	100	100	100	581
+404	Jakub	Bąk	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	80			100	100	100	580
+405	Szymon	Bobrowski	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	100	100	80	100		100	100		580
+406	Szymon	Bomba	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	80	100		100	100	0	580
+407	Adam	Gawroński	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80			100	100	100	580
+408	Maria	Janyska	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	80			100	100	100	580
+409	Cyprian	Lasa	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80			100	100	100	580
+410	Marek	Sokołowski	Technikum nr 7 w Zespole Szkół nr 10 im. prof. Janusza Groszkowskiego	Zabrze	śląskie	100	100	80	0		100	100	100	580
+411	Tytus	Majewski	Prywatne Liceum Ogólnokształcące nr 32 im. Jeana Monneta	Warszawa	mazowieckie	100	100	67	12		100	100	100	579
+412	Filip	Ziajka	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	84	82		100	100	13	579
+413	Kamil	Marzec	Technikum nr 3 w Zespole Szkół nr 3 im. Antoniego Kocjana	Olkusz	małopolskie	100	64	81	17	16	100	100	100	578
+414	Mateusz	Bylica	VII Liceum Ogólnokształcące im. Juliusza Słowackiego	Warszawa	mazowieckie	49	100	19	100	9	100	100	100	577
+415	Sławomir	Brzęczkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	36	58	80	98	4	100	100	100	576
+416	Szymon	Adamek	Publiczne Liceum Ogólnokształcące Politechniki Łódzkiej	Łódź	łódzkie	36	100	100	17	22	100	100	100	575
+417	Julian	Nowak	II Liceum Ogólnokształcące im. Króla Jana III Sobieskiego	Kraków	małopolskie	100	100	84	17	18	100	55	100	574
+418	Piotr	Mosiej	XLIX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Johanna Wolfganga Goethego	Warszawa	mazowieckie	19	100	49	100	3	100	100	100	571
+419	Jakub	Jamrozy	Technikum nr 10 im. Fryderyka Joliot-Curie	Wrocław	dolnośląskie	13	100	57	100	0	100	100	100	570
+420	Michał	Szarata	Katolicka Szkoła Podstawowa im. ks. Piotra Skargi	Warszawa	mazowieckie	100	64	61	26	18	100	100	100	569
+421	Jacek	Dombrowski	Publiczne Technikum nr 3	Opole	opolskie	49	100	17	100	2	100	100	100	568
+422	Zuzanna	Mosionek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	86	67		100	100	100	566
+423	Jan	Safiańczuk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	36	80	85	61	4	100	100	100	566
+424	Iryna	Hrudzinina	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	81	82	2	100	100	0	565
+425	Bolko	Wieleba	XXI Liceum Ogólnokształcące im. św. Stanisława Kostki	Lublin	lubelskie	0	100	100	61	2	100	100	100	563
+426	Filip	Wojciechowski	Niepubliczna Szkoła Podstawowa nr 47 im. Roberta Schumana Fundacji Primus	Warszawa	mazowieckie	100	100	14	49		100	100	100	563
+427	Michał	Czerwiński	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	13	64	84	100		100	100	100	561
+428	Michał	Graca	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	48	100		100	100	13	561
+429	Nikita	Harhots	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	64	80	17		100	100	100	561
+430	Jakub	Pawlaczyk	III Liceum Ogólnokształcące im. Mikołaja Kopernika	Kalisz	wielkopolskie	100	64	86	10		100	100	100	560
+431	Jan	Żochowski	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	100	64	81	100		100	100	13	558
+432	Bartosz	Dańko	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	13	100	44	100		100	100	100	557
+433	Dominik	Drożdż	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	13	44	100	100		100	100	100	557
+434	Piotr	Janaszak	Liceum Ogólnokształcące im. gen. Józefa Wybickiego	Śrem	wielkopolskie	32	100	80	29	16	100	100	100	557
+435	Tomasz	Kopaniecki	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	44	100		100	100	13	557
+436	Magdalena	Krzywicka	Szkoła Podstawowa nr 76 z Oddziałami Sportowymi im. Żołnierzy I Armii Wojska Polskiego	Wrocław	dolnośląskie	49	27	81	100		100	100	100	557
+437	Michał	Zagrajek	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	100	57	100		100	100	0	557
+438	Rafał	Kubień	VIII Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Marii Skłodowskiej-Curie	Katowice	śląskie	100	100	80		22	100	54	100	556
+439	Maksymilian	Sweklej	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	56			100	100	100	556
+440	Franciszek	Winiarski	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	53	80		22	100	100	100	555
+441	Wojciech	Dąbrowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	47	27	80	100	0	100	100	100	554
+442	Jakub	Ptaszkiewicz	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	100	100	33	17	4	100	100	100	554
+443	Krzysztof	Jeziorski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	17		100	55	100	552
+444	Maciej	Ułanowski	I Liceum Ogólnokształcące im. Adama Mickiewicza	Białystok	podlaskie	100	100	52			100	100	100	552
+445	Hubert	Słowik	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	32	100	86	29	4	100	100	100	551
+446	Kacper	Ujazdowski	Technikum nr 4 w Zespole Szkół Elektrycznych	Włocławek	kujawsko-pomorskie	100	27	24	100		100	100	100	551
+447	Michał	Gilewicz	III Liceum Ogólnokształcące im. Unii Lubelskiej	Lublin	lubelskie	17	100	80	49	4	100	100	100	550
+448	Aleksander	Lada	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	94	100	56			100	100	100	550
+449	Patryk	Paturalski	Technikum im. Zesłańców Sybiru	Brodnica	kujawsko-pomorskie	38	100	90	0	21	100	100	100	549
+450	Bartosz	Sydorczyk	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	100	100	37	12	0	100	100	100	549
+451	Michał	Bieniek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	80	100	13	100	55	0	548
+452	Krzysztof	Gawlik	Publiczne Akademickie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi	Rzeszów	podkarpackie	36	100	81	12	18	100	100	100	547
+453	Kuba	Turzański	Technikum w Centrum Kształcenia Zawodowego i Ustawicznego im. Jana Pawła II	Zbąszynek	lubuskie	100	64	81	100	2	100	100	0	547
+454	Piotr	Czarnecki	II Liceum Ogólnokształcące im. Jana Kasprowicza	Kutno	łódzkie	49	100	80		16	100	100	100	545
+455	Mateusz	Soczyński	CLVII Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie	Warszawa	mazowieckie	49	100	80	100	16	100	100	0	545
+456	Ignacy	Zawada	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	36	80	29		100	100	100	545
+457	Sebastian	Bułyszko	Szkoła Podstawowa nr 1 im. Gustawa Morcinka	Warszawa	mazowieckie	100	100	44	100		100	100	0	544
+458	Hubert	Kaźmierczak	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Łódź	łódzkie	100	100	44			100	100	100	544
+459	Antoni	Pawluk	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	64	80	0		100	100	100	544
+460	Antoni	Krążek	I Liceum Ogólnokształcące im. Seweryna Goszczyńskiego	Nowy Targ	małopolskie	49	55	86	49	4	100	100	100	543
+461	Stanisław	Kamiński	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	100	100	80	49		100	100	13	542
+462	Ivan	Skrynnik	Technikum nr 10 im. Fryderyka Joliot-Curie	Wrocław	dolnośląskie	49	100	81	12	0	100	100	100	542
+463	Antoni	Gabryszewski	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	8	84	49		100	100	100	541
+464	Szymon	Kaczkowski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	49	100	80	12		100	100	100	541
+465	Filip	Brajczewski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	40	100	66	29	4	100	100	100	539
+466	Maciej	Morys	I Liceum Ogólnokształcące im. Bartłomieja Nowodworskiego	Kraków	małopolskie	100	45	81	0	13	100	100	100	539
+467	Hubert	Pochłopień	Technikum nr 2 w Zespole Szkół im. Walerego Goetla	Sucha Beskidzka	małopolskie		58	81	100		100	100	100	539
+468	Ksawery	Bęś	II Liceum Ogólnokształcące im. Adama Mickiewicza	Racibórz	śląskie	49	100	81	0	8	100	100	100	538
+469	Anna	Wnęk	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	26	12		100	100	100	538
+470	Sebastian	Bryśkiewicz	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	36	100	84	17		100	100	100	537
+471	Aleks	Czufarow	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	36	100	84	12	4	100	100	100	536
+472	Adam	Raszczyk	Publiczne Liceum Ogólnokształcące nr II z Oddziałami Dwujęzycznymi im. Marii Konopnickiej	Opole	opolskie	100	27	80	100	16	100	100	13	536
+473	Adrian	Falak-Cyniak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	18	84	29	4	100	100	100	535
+474	Piotr	Podolak	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	13	60	58	100	4	100	100	100	535
+475	Konrad	Kmiecik	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	57	78	82	12	4	100	100	100	533
+476	Adam	Łubianka	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	49	100	84			100	100	100	533
+477	Adam	Kiliszek	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	32	100		100	100	0	532
+478	Grzegorz	Głogowski	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	81	64	80	2	4	100	100	100	531
+479	Magdalena	Dukaczewska	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	81	29	20	100	100	0	530
+480	Michał	Gnajda	Państwowa Ogólnokształcąca Szkoła Muzyczna II stopnia im. Karola Szymanowskiego	Katowice	śląskie	39	81	81	29	0	100	100	100	530
+481	Aleksandra	Kwiatkowska	I Liceum Ogólnokształcące im. Stanisława Staszica	Lublin	lubelskie	100	100	84	40	6	100	100	0	530
+482	Zuzanna	Kaźmierska	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	45	100	80		4	100	100	100	529
+483	Szymon	Mężykowski	X Liceum Ogólnokształcące im. prof. Stefana Banacha	Toruń	kujawsko-pomorskie	49	100	80	0		100	100	100	529
+484	Artem	PiskunoVIch	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	49	100	80	0	0	100	100	100	529
+485	Karolina	Kostrzewa	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	30	100	81	17		100	100	100	528
+486	Piotr	Magolan	Niepubliczne Liceum Ogólnokształcące Fundacji Królowej Świętej Jadwigi	Kęty	małopolskie	49	64	75	40		100	100	100	528
+487	Jakub	Wajda	Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi	Boguchwała	podkarpackie	49	82	85	12		100	100	100	528
+488	Antoni	Kamiński	XXVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego	Łódź	łódzkie	32	100	84	0	10	100	100	100	526
+489	Sonia	Mrowiec	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	45	81			100	100	100	526
+490	Mateusz	Tylec	II Liceum Ogólnokształcące im. Mikołaja Kopernika	Mielec	podkarpackie	13	78	48	87	0	100	100	100	526
+491	Mateusz	Kucharski	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	27	81	17		100	100	100	525
+492	Grzegorz	Kędzior	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	100	24			100	100	100	524
+493	Ignacy	Michalski	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	64	86	61	0	100	100	13	524
+494	Rafał	Starego	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie		100	24	100		100	100	100	524
+495	Szymon	Stefaniuk	I Liceum Ogólnokształcące im. J.I. Kraszewskiego	Biała Podlaska	lubelskie	100	27	44	49	4	100	100	100	524
+496	Jan	Główka	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	80	29		100	100	100	522
+497	Michał	Janusz	Technikum Elektroniczne nr 1	Warszawa	mazowieckie	32	0	90	100		100	100	100	522
+498	Franciszek	Derżko	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie	100	100	81	29	11	100	100		521
+499	Maksymilian	Kowalewski	Technikum nr 19	Poznań	wielkopolskie	100	100	0	12	9	100	100	100	521
+500	Tymon	Sidor	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	36	100	80		4	100	100	100	520
+501	Adam	Starowicz	I Liceum Ogólnokształcące Dwujęzyczne im. Edwarda Dembowskiego	Gliwice	śląskie	49	100	24	29	18	100	100	100	520
+502	Szymon	Walicki	Liceum Ogólnokształcące im. Bogusława X	Białogard	zachodniopomorskie	17	100	81		22	100	100	100	520
+503	Michał	Szempliński	Liceum Ogólnokształcące Benedykta	Radzymin	mazowieckie	100	71	84	29	22	100	100	13	519
+504	Aleksander	Lewczuk	2 Społeczne Liceum Ogólnokształcące z Oddziałami Międzynarodowymi im. Pawła Jasienicy Społecznego Towarzystwa Oświatowego	Warszawa	mazowieckie	100	45	68	0	4	100	100	100	517
+505	Kamil	Wiśniewski	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	32	100	84			100	100	100	516
+506	Antoni	Zakarczemny	Szkoła Podstawowa nr 3 im. Mariusza Zaruskiego	Wrocław	dolnośląskie	100	35	80	0		100	100	100	515
+507	Bartłomiej	Tomaś	VIII Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Marii Skłodowskiej-Curie	Katowice	śląskie	0	100	100	12	2	100	100	100	514
+508	Jan	Gonczaryk	XXVII Liceum Ogólnokształcące im. Tadeusza Czackiego	Warszawa	mazowieckie	32	100	81			100	100	100	513
+509	Wiktor	Chełek	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	49	71	80	12		100	100	100	512
+510	Antoni	Janicki	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	49	45	80	12	25	100	100	100	511
+511	Arkadiusz	Treder	I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Hieronima Derdowskiego	Kartuzy	pomorskie	48	55	75	29	4	100	100	100	511
+512	Mateusz	Bodal	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	64	41		4	100	100	100	509
+513	Jakub	Szczuko	I Liceum Ogólnokształcące im. Mikołaja Kopernika	Gdańsk	pomorskie	0	100	56	97		100	55	100	508
+514	Jan	Borys	Technikum nr 4 w Zespole Szkół nr 6 im. Króla Jana III Sobieskiego	Jastrzębie-Zdrój	śląskie	49	64	80	12	2	100	100	100	507
+515	Mieszko	Fus	Szkoła Podstawowa im. św. Królowej Jadwigi	Jerzmanowice	małopolskie	32	100	75	100		100	100	0	507
+516	Roman	Maksimenka	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	100	27	80	0		100	100	100	507
+517	Miłosz	Pawelec	VI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Jana Kochanowskiego	Radom	mazowieckie	100	100	80	12	2	100	100	13	507
+518	Mateusz	Diesner	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	32	100	44	12	18	100	100	100	506
+519	Ksawery	Laskowski	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	64	42			100	100	100	506
+520	Marcin	Świętkowski	Technikum Elektryczne Zespołu Szkół Elektrycznych im. prof. Janusza Groszkowskiego	Białystok	podlaskie	62	51	42	49		100	100	100	504
+521	Kuba	Wilmanski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie		100	75	29		100	100	100	504
+522	Alicja	Sienkiewicz	VIII Liceum Ogólnokształcące im. Władysława IV	Warszawa	mazowieckie	13	100	90			100	100	100	503
+523	Konrad	Kuźmin	Zespół Szkół Ogólnokształcących nr 12 XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Zbigniewa Herberta	Gdańsk	pomorskie	100	100	53	49		100	100	0	502
+524	Franciszek	Malko	III Liceum Ogólnokształcące im. Marynarki Wojennej RP z Oddz. Dwujęzycznymi	Gdynia	pomorskie	100	100	80	17	4	100	100	0	501
+525	Igor	Witka	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	100	64	37	100		100	100	0	501
+526	Bartosz	Baszkiewicz	Niepubliczne Liceum Ogólnokształcące Fundacji Królowej Świętej Jadwigi w Koszarawie Bystrej	Koszarawa	śląskie	19	100	81			100	100	100	500
+527	Jakub	Fraś	Akademickie Liceum Ogólnokształcące Politechniki Śląskiej	Gliwice	śląskie	32	100	68	0		100	100	100	500
+528	Ignacy	Maliszewski	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	100	42	80	29	34	100	100	13	498
+529	Igor	Hajkowski	Technikum nr 1 w Centrum Nauk Technicznych	Chojnice	pomorskie	17	100	80	0	0	100	100	100	497
+530	Michał	Jakubowski	XXVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego	Łódź	łódzkie	100	100	80	17		100	100	0	497
+531	Maurycy	Wójtowski	Publiczne Liceum Ogólnokształcące Uniwersytetu Łódzkiego im. Sprawiedliwych wśród Narodów Świata	Łódź	łódzkie		100	80	17		100	100	100	497
+532	Oskar	Szyszko	Zespół Szkół nr 1 im. Władysława Grabskiego Technikum Ekonomiczno-Handlowe	Lublin	lubelskie	100	100	80	0	16	100	100	0	496
+533	Kamil	Bukowski	II Liceum Ogólnokształcące im. Księdza Jana Twardowskiego	Dębica	podkarpackie	13	100	80	0		100	100	100	493
+534	Aleksander	Cynk	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	49	64	80	100		100	100	0	493
+535	Marceli	Jakubowski	Zespół Szkół nr 1 im. Kazimierza Wielkiego Technikum	Mińsk Mazowiecki	mazowieckie	13		80	100		100	100	100	493
+536	Marek	Konieczny	Publiczne Liceum Ogólnokształcące Stowarzyszenia Rodzin Katolickich Archidiecezji Katowickiej	Chorzów	śląskie	13	100	80			100	100	100	493
+537	Łucja	Łyziak	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	80	0		100	100	100	493
+538	Zofia Wiktoria	Bis	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	100	8	80	0	4	100	100	100	492
+539	George	Mishkov	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	100	100	80	12		100	100	0	492
+540	Michał	Łagowski	II Liceum Ogólnokształcące im. Mikołaja Kopernika	Mielec	podkarpackie	100	0	90	0	0	100	100	100	490
+541	Adam	Kapczyński	XL Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stefana Żeromskiego	Warszawa	mazowieckie	0	100	72	12	4	100	100	100	488
+542	Tadeusz	Rylski	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	13	100	75		0	100	100	100	488
+543	Szymon	Zgardziński	III Liceum Ogólnokształcące im. Unii Lubelskiej	Lublin	lubelskie	0	64	80	100		100	100	44	488
+544	Łukasz	Piechaczek	Publiczne Technikum nr 3	Opole	opolskie	100	100	5	82		100	100	0	487
+545	Jakub	Bisikiewicz	Wojskowe Ogólnokształcące Liceum Informatyczne	Warszawa	mazowieckie	30	100	80	12	22	100	42	100	486
+546	Szymon	Warsiński	II Liceum Ogólnokształcące im. gen. Władysława Andersa	Chojnice	pomorskie	32	45	80	29		100	100	100	486
+547	Jakub	Trela	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie	0	100	54	29		100	100	100	483
+548	Antonia	Czerwińska	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	32	100	49	0		100	100	100	481
+549	Karol	Kaczmarek	Szkoła Podstawowa im. Wincentego Pallottiego	Ożarów Mazowiecki	mazowieckie	0	100	80			100	100	100	480
+550	Bartosz	Milczarek	V Liceum Ogólnokształcące im. Augusta Witkowskiego	Kraków	małopolskie	100	100	80	0		100	100	0	480
+551	Piotr	Wojtkowski	XXVII Liceum Ogólnokształcące im. Tadeusza Czackiego	Warszawa	mazowieckie	100	100	80	0		100	100	0	480
+552	Kornel	Kotowicz	Technikum nr 1 w Zespole Szkół Zawodowych nr 1 im. Komisji Edukacji Narodowej	Biała Podlaska	lubelskie	49	38	80	12	0	100	100	100	479
+553	Bartosz	Kubecki	Technikum Mechatroniczne nr 1	Warszawa	mazowieckie	49	45	72	12		100	100	100	478
+554	Małgorzata	Mikołajczyk	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	98	27	41	12		100	100	100	478
+555	Jakub	Adamiak	VI Liceum Ogólnokształcące im. Jana i Jędrzeja Śniadeckich	Bydgoszcz	kujawsko-pomorskie	19	71	86	0		100	100	100	476
+556	Krzysztof Wojciech	Byszewski	XXXIII Liceum Ogólnokształcące Dwujęzyczne im. Mikołaja Kopernika	Warszawa	mazowieckie	32	100	44	0		100	100	100	476
+557	Nikodem	Lubiński	Technikum im. Zesłańców Sybiru	Brodnica	kujawsko-pomorskie	47	100	16	12		100	100	100	475
+558	Szymon	Łania	Akademickie Liceum Ogólnokształcące Politechniki Wrocławskiej	Wrocław	dolnośląskie	13	80	80			100	100	100	473
+559	Szymon	Żmijewski	III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Marii Dąbrowskiej	Płock	mazowieckie	100	27	23	12	8	100	100	100	470
+560	Tymoteusz	Ptaszek	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	49	27	92			100	100	100	468
+561	Aleksandra	Dudek	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	13	100	53	0		100	100	100	466
+562	Dawid	Boroń	Technikum Łączności nr 14 im. Obrońców Poczty Polskiej	Kraków	małopolskie	19	27	18	100		100	100	100	464
+563	Karol	Janicki	Publiczna Salezjańska Szkoła Podstawowa im. bł. Piątki Poznańskiej	Poznań	wielkopolskie	13	100	51	0	0	100	100	100	464
+564	Jan	Micyk	VIII Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Marii Skłodowskiej-Curie	Katowice	śląskie	13	51	100			100	100	100	464
+565	Mateusz	Cebo	Liceum Ogólnokształcące Zakonu Pijarów im. ks. Stanisława Konarskiego	Kraków	małopolskie	0	100	63	0		100	100	100	463
+566	Marek	Pasiński	III Liceum Ogólnokształcące im. Adama Mickiewicza	Bydgoszcz	kujawsko-pomorskie	49	64	50	100		100	100	0	463
+567	Kinga	Bastrzyk	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	13	64	80	100	4	100	100	0	461
+568	Aleksander	Dembny	VIII Liceum Ogólnokształcące im. Adama Mickiewicza	Poznań	wielkopolskie	100	27	18	12	4	100	100	100	461
+569	Tola	Matyasik	Liceum Ogólnokształcące nr III im. Adama Mickiewicza	Wrocław	dolnośląskie	0	100	49	12		100	100	100	461
+570	Dawid	Popiel	Publiczne Liceum Ogólnokształcące nr II z Oddziałami Dwujęzycznymi im. Marii Konopnickiej	Opole	opolskie	32	0	80	49		100	100	100	461
+571	Michał	Klinger	"Żagle" Liceum Ogólnokształcące Stowarzyszenia Sternik	Warszawa	mazowieckie	32	27	84	0	16	100	100	100	459
+572	Antoni	Makowski	Szkoła Podstawowa nr 16 im. Tony Halika	Warszawa	mazowieckie		100	59			100	100	100	459
+573	Jakub	Lenart	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	13	100	42			100	100	100	455
+574	Radek	Ojewski	Technikum im. Zesłańców Sybiru	Brodnica	kujawsko-pomorskie	0	27	84	29	15	100	100	100	455
+575	Mateusz	Łampika	Społeczne Liceum Ogólnokształcące nr 4 imienia Batalionu AK Parasol	Warszawa	mazowieckie	36	0	80	12	25	100	100	100	453
+576	Bartosz	Zając	III Liceum Ogólnokształcące im. Adama Mickiewicza	Tarnów	małopolskie		100	53			100	100	100	453
+577	Wojciech	Rózga	Uniwersyteckie Liceum Ogólnokształcące	Toruń	kujawsko-pomorskie	13	100	84	0		100	55	100	452
+578	Robert	Zarzecki	Technikum nr 4 w Zespole Szkół nr 6 im. Króla Jana III Sobieskiego	Jastrzębie-Zdrój	śląskie	100	15	25	12		100	100	100	452
+579	Maksymilian	Dynus	Technikum nr 1 w Zespole Szkół Techniczno-Informatycznych	Gliwice	śląskie	32	27	92	0		100	100	100	451
+580	Anton	Gavrylenko	Akademickie Liceum Ogólnokształcące przy PJATK	Warszawa	mazowieckie	32	27	80	12		100	100	100	451
+581	Norbert	Szeremet	XXXI Liceum Ogólnokształcące im. Romana Ingardena	Kraków	małopolskie			50	100		100	100	100	450
+582	Mikołaj	Mocek	Akademickie Liceum Ogólnokształcące Politechniki Śląskiej	Rybnik	śląskie	100	27	92	14	16	100	100	0	449
+583	Joanna	Dorosz	XIV Liceum Ogólnokształcące im. Stanisława Staszica	Warszawa	mazowieckie		100	44		4	100	100	100	448
+584	Franciszek	Stężała	XIII Liceum Ogólnokształcące	Szczecin	zachodniopomorskie	13	55	80			100	100	100	448
+585	Maxim	Truliayeu	Liceum Ogólnokształcące nr XIV im. Polonii Belgijskiej	Wrocław	dolnośląskie	32	27	80	0	8	100	100	100	447

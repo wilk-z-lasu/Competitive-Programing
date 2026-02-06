@@ -1,0 +1,26 @@
+Ile osób z listy osoby z pierwszej 100 jest na liscie osoby_oi?
+87
+
+Ile osób z listy osoby z pierwszej 200 jest na liscie osoby_oi?
+179
+
+Ile osób z listy osoby jest na liscie osoby_oi?
+279
+
+Ile osób z listy osoby_oi z pierwszej 100 jest na liscie osoby?
+65
+
+Ile osób z listy osoby_oi z pierwszej 200 jest na liscie osoby?
+126
+
+Ile osób z listy osoby_oi jest na liscie osoby?
+279
+
+Margines błędu to +- 10 procent
+Osoby - osoby co piszą preoi
+osoby_oi - osoby co przeszly w tym roku 1 etap
+są znaki zapytania ktore pomijam
+
+Wniosek: 
+Każdy kto bierze udział w preOI bierze udział w oi
+Ale tylko jakieś 70% sensownych uczestników OI bierze udział w preOI
