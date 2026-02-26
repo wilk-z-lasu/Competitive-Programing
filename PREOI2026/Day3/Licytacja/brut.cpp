@@ -15,7 +15,8 @@ int n,a,b;
 
 struct Node {
     int sum = 0;
-    Node *left = nullptr, *right = nullptr;
+    Node *left = nullptr;
+    Node *right = nullptr;
 };
 
 struct DynamicTree {
